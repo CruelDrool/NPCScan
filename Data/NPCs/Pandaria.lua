@@ -307,6 +307,297 @@ NPCs[63978] = { -- Kri'chon
 }
 
 -- ----------------------------------------------------------------------------
+-- Vale of Eternal Blossoms (Legion/BfA)
+-- ----------------------------------------------------------------------------
+NPCs[154447] = { -- Brother Meller
+	questID = 56237,
+	vignetteID = 3692,
+}
+
+NPCs[154467] = { -- Chief Mek-mek
+	questID = 56255,
+	vignetteID = 3693,
+}
+
+NPCs[154559] = { -- Deeplord Zrihj
+	questID = 56323,
+	vignetteID = 3733,
+}
+
+NPCs[157267] = { -- Escaped Mutation
+	questID = 57343,
+	vignetteID = 3811,
+}
+
+NPCs[157266] = { -- Kilxl the Gaping Maw
+	questID = 57341,
+	vignetteID = 3810,
+}
+
+NPCs[154106] = { -- Quid
+	questID = 56094,
+	vignetteID = 3662,
+}
+
+NPCs[154490] = { -- Rijz'x the Devourer
+	questID = 56302,
+	vignetteID = 3698,
+}
+
+NPCs[157468] = { -- Tisiphon
+	questID = 57364,
+	vignetteID = 3820,
+}
+
+NPCs[154394] = { -- Veskan the Fallen
+	questID = 56213,
+	vignetteID = 3691,
+}
+
+NPCs[154332] = { -- Voidtender Malketh
+	questID = 56183,
+	vignetteID = 3688,
+}
+
+NPCs[154495] = { -- Will of N'Zoth
+	questID = 56303,
+	vignetteID = 3703,
+	toys = {
+		{ 
+			itemID = 175140, -- All-Seeing Eyes
+		},
+	},
+}
+
+NPCs[154087] = { -- Zror'um the Infinite
+	questID = 56084,
+	vignetteID = 3655,
+}
+
+NPCs[155958] = { -- Tashara
+	questID = 58507,
+	vignetteID = 4111,
+	toys = {
+		{ 
+			itemID = 174873, -- Trans-mogu-rifier
+		},
+	},
+}
+
+NPCs[157160] = { -- Houndlord Ren
+	questID = 57345,
+	vignetteID = 3797,
+	mounts = {
+		{
+			itemID = 174841, -- Ren's Stalwart Hound
+			spellID = 316722, -- Ren's Stalwart Hound
+		},
+	},
+}
+
+NPCs[157466] = { -- Anh-De the Loyal
+	questID = 57363,
+	vignetteID = 3819,
+	mounts = {
+		{
+			itemID = 174840, -- Xinlao
+			spellID = 316723, -- Xinlao
+		},
+	},
+}
+
+NPCs[157153] = { -- Ha-Li
+	questID = 57344,
+	vignetteID = 3795,
+	mounts = {
+		{
+			itemID = 173887, -- Clutch of Ha-Li
+			spellID = 312751, -- Clutch of Ha-Li
+		},
+	},
+}
+
+NPCs[157176] = { -- The Forgotten
+	questID = 57342,
+	vignetteID = 3807,
+	pets = {
+		{
+			itemID = 174473, -- K'uddly
+			npcID = 161954, -- K'uddly
+		},
+	},
+}
+
+NPCs[160968] = { -- Jade Colossus
+	questID = 58295,
+	vignetteID = 3988,
+}
+
+NPCs[157162] = { -- Rei Lun
+	questID = 57346,
+	vignetteID = 3798,
+}
+
+NPCs[157290] = { -- Jade Watcher
+	isTameable = true,
+	questID = 57350,
+	vignetteID = 3814,
+}
+
+NPCs[157291] = { -- Spymaster Hul'ach
+	questID = 57351,
+	vignetteID = 3815,
+}
+
+NPCs[157171] = { -- Heixi the Stonelord
+	questID = 57347,
+	vignetteID = 3805,
+}
+
+NPCs[157443] = { -- Xiln the Mountain
+	questID = 57358,
+	vignetteID = 3817,
+}
+
+NPCs[156083] = { -- Sanguifang
+	questID = 56954,
+	-- vignetteID = ,
+}
+
+NPCs[157287] = { -- Dokani Obliterator
+	questID = 57349,
+	vignetteID = 3813,
+}
+
+NPCs[154600] = { -- Teng the Awakened
+	questID = 56332,
+	vignetteID = 3734,
+}
+
+NPCs[157279] = { -- Stormhowl
+	isTameable = true,
+	questID = 57348,
+	vignetteID = 3812,
+}
+
+NPCs[157183] = { -- Coagulated Anima
+	questID = 58296,
+	vignetteID = 3808,
+}
+
+NPCs[154638] = { -- Grand Empress Shek'zara
+	questID = 58705,
+}
+
+NPCs[160920] = { -- Kal'tik the Blight
+	questID = 58310,
+	vignetteID = 4000,
+}
+
+NPCs[160922] = { -- Needler Zhesalla
+	questID = 58311,
+	vignetteID = 4001,
+}
+
+NPCs[160876] = { -- Enraged Amber Elemental
+	questID = 58306,
+	vignetteID = 3996,
+}
+
+NPCs[160874] = { -- Drone Keeper Ak'thet
+	questID = 58305,
+	vignetteID = 3995,
+}
+
+NPCs[160867] = { -- Kzit'kovok
+	questID = 58302,
+	vignetteID = 3992,
+}
+
+NPCs[160868] = { -- Harrier Nir'verash
+	questID = 58303,
+	vignetteID = 3993,
+}
+
+NPCs[160810] = { -- Harbinger Il'koxik
+	questID = 58299,
+	vignetteID = 3989,
+}
+
+NPCs[160893] = { -- Captain Vor'lek
+	questID = 58308,
+	vignetteID = 3998,
+}
+
+NPCs[160826] = { -- Hive-Guard Naz'ruzek
+	questID = 58301,
+	vignetteID = 3991,
+}
+
+NPCs[160872] = { -- Destroyer Krox'tazar
+	questID = 58304,
+	vignetteID = 3994,
+}
+
+NPCs[160825] = { -- Amber-Shaper Esh'ri
+	questID = 58300,
+	vignetteID = 3990,
+}
+
+NPCs[160930] = { -- Infused Amber Ooze
+	questID = 58312,
+	vignetteID = 4002,
+}
+
+NPCs[160878] = { -- Buh'gzaki the Blasphemous
+	questID = 58307,
+	vignetteID = 3997,
+}
+
+NPCs[160906] = { -- Skiver
+	questID = 58309,
+	-- vignetteID = ,
+}
+
+-- ----------------------------------------------------------------------------
+-- Vale of Eternal Twilight, Vale of Eternal Blossoms (BfA)
+-- ----------------------------------------------------------------------------
+NPCs[159103] = { -- Manipulator Shrog'lth
+	-- questID = ,
+	vignetteID = 3944,
+}
+
+NPCs[160841] = { -- Blubbery Blobule
+	-- questID = ,
+	vignetteID = 3981,
+}
+
+NPCs[160805] = { -- Gloopy Globule
+	-- questID = ,
+	vignetteID = 3982,
+}
+
+NPCs[160126] = { -- Manipulator Yggshoth
+	-- questID = ,
+	vignetteID = 3943,
+}
+
+NPCs[160127] = { -- Darkspeaker Shath'gul
+	-- questID = ,
+	vignetteID = 3947,
+}
+
+NPCs[159318] = { -- Shadow-Walker Yash'gth
+	-- questID = ,
+	vignetteID = 3945,
+}
+
+NPCs[156451] = { -- Darkspeaker Thul'grsh
+	-- questID = ,
+	vignetteID = 3946,
+}
+
+-- ----------------------------------------------------------------------------
 -- Krasarang Wilds
 -- ----------------------------------------------------------------------------
 NPCs[50331] = { -- Go-Kan

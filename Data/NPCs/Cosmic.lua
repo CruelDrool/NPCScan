@@ -11,3 +11,7 @@ NPCs[122899] = { -- Death Metal Knight
 	questID = 47767, -- Death Metal Knight
 	vignetteID = 2003,
 }
+
+NPCs[71992] = { -- Moonfang
+	vignetteID = 63,
+}

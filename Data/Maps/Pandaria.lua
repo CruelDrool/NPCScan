@@ -111,6 +111,68 @@ Maps[MapID.ValeOfEternalBlossoms].NPCs = {
 }
 
 -- ----------------------------------------------------------------------------
+-- Vale of Eternal Blossoms (BfA)
+-- ----------------------------------------------------------------------------
+Maps[MapID.ValeOfEternalBlossomsBfa].NPCs = {
+	[154447] = true, -- Brother Meller
+	[154467] = true, -- Chief Mek-mek
+	[154559] = true, -- Deeplord Zrihj
+	[157267] = true, -- Escaped Mutation
+	[157266] = true, -- Kilxl the Gaping Maw
+	[154106] = true, -- Quid
+	[154490] = true, -- Rijz'x the Devourer
+	[157468] = true, -- Tisiphon
+	[154394] = true, -- Veskan the Fallen
+	[154332] = true, -- Voidtender Malketh
+	[154495] = true, -- Will of N'Zoth
+	[154087] = true, -- Zror'um the Infinite
+	[155958] = true, -- Tashara
+	[157160] = true, -- Houndlord Ren
+	[157466] = true, -- Anh-De the Loyal
+	[157153] = true, -- Ha-Li
+	[157176] = true, -- The Forgotten
+	[160968] = true, -- Jade Colossus
+	[157162] = true, -- Rei Lun
+	[157290] = true, -- Jade Watcher
+	[157291] = true, -- Spymaster Hul'ach
+	[157171] = true, -- Heixi the Stonelord
+	[157443] = true, -- Xiln the Mountain
+	[156083] = true, -- Sanguifang
+	[157287] = true, -- Dokani Obliterator
+	[154600] = true, -- Teng the Awakened
+	[157279] = true, -- Stormhowl
+	[157183] = true, -- Coagulated Anima
+	[154638] = true, -- Grand Empress Shek'zara
+	[160920] = true, -- Kal'tik the Blight
+	[160922] = true, -- Needler Zhesalla
+	[160876] = true, -- Enraged Amber Elemental
+	[160874] = true, -- Drone Keeper Ak'thet
+	[160867] = true, -- Kzit'kovok
+	[160868] = true, -- Harrier Nir'verash
+	[160810] = true, -- Harbinger Il'koxik
+	[160893] = true, -- Captain Vor'lek
+	[160826] = true, -- Hive-Guard Naz'ruzek
+	[160872] = true, -- Destroyer Krox'tazar
+	[160825] = true, -- Amber-Shaper Esh'ri
+	[160930] = true, -- Infused Amber Ooze
+	[160878] = true, -- Buh'gzaki the Blasphemous
+	[160906] = true, -- Skiver
+}
+
+-- ----------------------------------------------------------------------------
+-- Vale of Eternal Twilight, Vale of Eternal Blossoms (BfA)
+-- ----------------------------------------------------------------------------
+Maps[MapID.ValeOfEternalTwilightVoEB].NPCs = {
+	[159103] = true, -- Manipulator Shrog'lth
+	[160841] = true, -- Blubbery Blobule
+	[160805] = true, -- Gloopy Globule
+	[160126] = true, -- Manipulator Yggshoth
+	[160127] = true, -- Darkspeaker Shath'gul
+	[159318] = true, -- Shadow-Walker Yash'gth
+	[156451] = true, -- Darkspeaker Thul'grsh
+}
+
+-- ----------------------------------------------------------------------------
 -- Krasarang Wilds
 -- ----------------------------------------------------------------------------
 Maps[MapID.KrasarangWilds].NPCs = {

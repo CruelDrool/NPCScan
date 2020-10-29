@@ -101,7 +101,7 @@ local function CanAddToScanList(npcID)
 		return true
 	end
 
-	if npc.factionGroup == _G.UnitFactionGroup("player") then
+	if npc.factionGroup and npc.factionGroup == _G.UnitFactionGroup("player") then
 		return false
 	end
 

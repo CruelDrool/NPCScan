@@ -435,6 +435,12 @@ NPCs[137681] = { -- King Clickyclack
 NPCs[138794] = { -- Dunegorger Kraulok
 	classification = "elite",
 	questID = 52196, -- Sandswept Bones
+	mounts = {
+		{
+			itemID = 174842, -- Slightly Damp Pile of Fur
+			spellID = 298367, -- Mollie
+		},
+	},
 }
 
 -- ----------------------------------------------------------------------------
@@ -617,4 +623,15 @@ NPCs[143536] = { -- High Warlord Volrath
 
 NPCs[143910] = { -- Sludgecrusher
 	classification = "elite",
+}
+
+NPCs[149147] = { -- N'chala the Egg Thief
+	questID = 54770,
+	vignetteID = 3504,
+	pets = {
+		{
+			itemID = 166345, -- Zandalari Raptor Egg
+			npcID = 148520, -- Dasher
+		},
+	},
 }

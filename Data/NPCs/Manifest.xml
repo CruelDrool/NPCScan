@@ -9,9 +9,11 @@
     <Script file="EasternKingdoms.lua"/>
     <Script file="Kalimdor.lua"/>
     <Script file="KulTiras.lua"/>
+    <Script file="Nazjatar.lua"/>
     <Script file="Northrend.lua"/>
     <Script file="Outland.lua"/>
     <Script file="Pandaria.lua"/>
     <Script file="TheMaelstrom.lua"/>
+    <Script file="TheShadowlands.lua"/>
     <Script file="Zandalar.lua"/>
 </Ui>

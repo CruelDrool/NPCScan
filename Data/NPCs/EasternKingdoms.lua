@@ -44,6 +44,8 @@ NPCs[51067] = { -- Glint
 }
 
 NPCs[137374] = { -- The Lion's Roar
+	-- 53001, 52848
+	questID = 53001,
 	factionGroup = "Alliance",
 	toys = {
 		{ itemID = 163829, }, -- Toy War Machine
@@ -51,6 +53,7 @@ NPCs[137374] = { -- The Lion's Roar
 }
 
 NPCs[138122] = { -- Doom's Howl
+	questID = 52847,
 	factionGroup = "Horde",
 	toys = {
 		{ itemID = 163828, }, -- Toy Siege Tower
@@ -63,16 +66,19 @@ NPCs[141615] = { -- Burning Goliath
 }
 
 NPCs[141616] = { -- Thundering Goliath
+	classification = "rareelite",
 	questID = 53527,
 	vignetteID = 3200,
 }
 
 NPCs[141618] = { -- Cresting Goliath
+	classification = "rareelite",
 	questID = 53531,
 	vignetteID = 3195,
 }
 
 NPCs[141620] = { -- Rumbling Goliath
+	classification = "rareelite",
 	questID = 53523,
 	vignetteID = 3198,
 }
@@ -89,6 +95,7 @@ NPCs[142423] = { -- Overseer Krix
 }
 
 NPCs[142433] = { -- Fozruk
+	classification = "rareelite",
 	pets = {
 		{
 			itemID = 163711, -- Shard of Fozruk
@@ -100,6 +107,7 @@ NPCs[142433] = { -- Fozruk
 }
 
 NPCs[142435] = { -- Plaguefeather
+	classification = "rareelite",
 	isTameable = true,
 	pets = {
 		{
@@ -112,6 +120,7 @@ NPCs[142435] = { -- Plaguefeather
 }
 
 NPCs[142436] = { -- Ragebeak
+	classification = "rareelite",
 	pets = {
 		{
 			itemID = 163689, -- Angry Egg
@@ -123,6 +132,7 @@ NPCs[142436] = { -- Ragebeak
 }
 
 NPCs[142437] = { -- Skullripper
+	classification = "rareelite",
 	mounts = {
 		{
 			itemID = 163645, -- Skullripper
@@ -134,6 +144,7 @@ NPCs[142437] = { -- Skullripper
 }
 
 NPCs[142438] = { -- Venomarus
+	classification = "rareelite",
 	pets = {
 		{
 			itemID = 163648, -- Fuzzy Creepling
@@ -145,6 +156,7 @@ NPCs[142438] = { -- Venomarus
 }
 
 NPCs[142440] = { -- Yogursa
+	classification = "rareelite",
 	pets = {
 		{
 			itemID = 163684, -- Scabby,
@@ -156,6 +168,7 @@ NPCs[142440] = { -- Yogursa
 }
 
 NPCs[142508] = { -- Branchlord Aldrus
+	classification = "rareelite",
 	pets = {
 		{
 			itemID = 163650, -- Aldrusian Sproutling
@@ -295,6 +308,7 @@ NPCs[142725] = { -- Horrific Apparition
 
 NPCs[142739] = { -- Knight-Captain Aldrin
 	factionGroup = "Alliance",
+	questID = 53088,
 	mounts = {
 		{
 			itemID = 163578, -- Broken Highland Mustang

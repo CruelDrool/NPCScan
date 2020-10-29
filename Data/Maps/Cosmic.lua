@@ -10,4 +10,5 @@ local MapID = private.Enum.MapID
 -- ----------------------------------------------------------------------------
 Maps[MapID.DarkmoonIsland].NPCs = {
 	[122899] = true, -- Death Metal Knight
+	[71992] = true, -- Moonfang
 }

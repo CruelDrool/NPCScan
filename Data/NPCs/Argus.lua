@@ -219,6 +219,7 @@ NPCs[126896] = { -- Herald of Chaos
 }
 
 NPCs[126898] = { -- Sabuul
+	isTameable = true,
 	mounts = {
 		{
 			itemID = 152840, -- Scintillating Mana Ray

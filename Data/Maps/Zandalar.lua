@@ -154,4 +154,5 @@ Maps[MapID.Zuldazar].NPCs = {
 	[143314] = true, -- Bane of the Woods
 	[143536] = true, -- High Warlord Volrath
 	[143910] = true, -- Sludgecrusher
+	[149147] = true, -- N'chala  the Egg Thief
 }

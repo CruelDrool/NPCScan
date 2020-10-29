@@ -186,13 +186,25 @@ local function AddEntryDataIDs(list, fieldName)
     end
 end
 
-local function AddEntryToDataTooltip(iconPath, entryName, isCollected)
+local function AddEntryToDataTooltip(iconPath, entryName, isCollected, covenant)
     local line = DataTooltip:AddLine(("|T%s:0:0|t %s"):format(iconPath, entryName))
 
     if isCollected then
         DataTooltip:SetCell(line, 2, ("%s%s"):format(_G.GREEN_FONT_COLOR_CODE, _G.COLLECTED))
-    else
-        DataTooltip:SetCell(line, 2, ("%s%s"):format(_G.RED_FONT_COLOR_CODE, _G.NOT_COLLECTED))
+	else
+		local output = ("%s%s|r"):format(_G.RED_FONT_COLOR_CODE, _G.NOT_COLLECTED)
+		if covenant then
+			local covenantColorCode = _G.RED_FONT_COLOR_CODE
+			local covenantID = _G.C_Covenants.GetActiveCovenantID()
+			if covenantID > 0 then
+				covenantData = _G.C_Covenants.GetCovenantData(covenantID)
+				if covenantData.Name == covenant then
+					covenantColorCode = _G.GREEN_FONT_COLOR_CODE
+				end
+			end
+			output = string.format("%1$s - %2$s%3$s|r", output, covenantColorCode, covenant)
+		end
+        DataTooltip:SetCell(line, 2, output)
     end
 end
 
@@ -232,7 +244,7 @@ local function DisplayMountInfo(tooltipCell, mountList)
         local creatureName, spellID, iconPath, _, _, _, _, _, _, hideOnChar, isCollected = _G.C_MountJournal.GetMountInfoByID(mountIDs[index])
 
         if creatureName and not hideOnChar and entryFromID[spellID] then
-            AddEntryToDataTooltip(iconPath, creatureName, isCollected)
+			AddEntryToDataTooltip(iconPath, creatureName, isCollected, entryFromID[spellID].covenant)
         end
     end
 
@@ -261,7 +273,7 @@ local function DisplayPetInfo(tooltipCell, petList)
         local _, _, isCollected, _, _, _, _, petName, iconPath, _, npcID = C_PetJournal.GetPetInfoByIndex(index)
 
         if petName and entryFromID[npcID] then
-			AddEntryToDataTooltip(iconPath, petName, isCollected)
+			AddEntryToDataTooltip(iconPath, petName, isCollected, entryFromID[npcID].covenant)
 			entryFromID[npcID] = nil -- Prevent multiples if already collected.
         end
     end
@@ -289,7 +301,7 @@ local function DisplayToyInfo(tooltipCell, toyList)
         local itemID, toyName, iconPath = C_ToyBox.GetToyInfo(toyID)
 
 		if toyName and entryFromID[itemID] then
-            AddEntryToDataTooltip(iconPath, toyName, _G.PlayerHasToy(itemID))
+            AddEntryToDataTooltip(iconPath, toyName, _G.PlayerHasToy(itemID), entryFromID[itemID].covenant)
         end
     end
 

@@ -255,6 +255,265 @@ NPCs[140252] = { -- Hailstone Construct
 }
 
 -- ----------------------------------------------------------------------------
+-- Mechagon Island
+-- ----------------------------------------------------------------------------
+NPCs[151124] = { -- Mechagonian Nullifier
+	classification = "rareelite",
+	achievementQuestID = 55207,
+	vignetteID = 3546,
+}
+
+NPCs[151672] = { -- Mecharantula
+	achievementQuestID = 55386,
+	vignetteID = 3552,
+	pets = {
+		{
+			itemID = 169393, -- Arachnoid Skitterbot
+			npcID = 154894, -- Arachnoid Skitterbot
+		},
+	},
+}
+
+NPCs[151702] = { -- Paol Pondwader
+	achievementQuestID = 55405,
+	vignetteID = 3554,
+}
+
+NPCs[151934] = { -- Arachnoid Harvester
+	classification = "rareelite",
+	achievementQuestID = 55512,
+	vignetteID = 3570,
+	mounts = {
+		{
+			itemID = 168823, -- Rusty Mechanocrawler
+			spellID = 291492, -- Rusty Mechanocrawler
+		},
+	},
+}
+
+-- NPCs[151884] = { -- Fungarian Furor
+NPCs[135497] = { -- Fungarian Furor / Mushroom
+	achievementQuestID = 55367,
+	-- vignetteID = , -- There was no vignette for this mob.
+	pets = {
+		{
+			itemID = 169379, -- Snowsoft Nibbler
+			npcID = 154851, -- Snowsoft Nibbler
+		},
+	},
+}
+
+NPCs[151569] = { -- Deepwater Maw
+	achievementQuestID = 55514,
+	vignetteID = 3571,
+}
+
+NPCs[152001] = { -- Bonepicker
+	achievementQuestID = 55537,
+	vignetteID = 3581,
+	isTameable = true,
+	pets = {
+		{
+			itemID = 169392, -- Bonebiter
+			npcID = 154893, -- Bonebiter
+		},
+	},
+}
+
+NPCs[151940] = { -- Uncle T'Rogg
+	achievementQuestID = 55538,
+	vignetteID = 3582,
+}
+
+NPCs[153000] = { -- Sparkqueen P'Emp
+	achievementQuestID = 55810,
+	vignetteID = 3625,
+}
+
+NPCs[151933] = { -- Malfunctioning Beastbot
+	classification = "rareelite",
+	achievementQuestID = 55544,
+	vignetteID = 3584,
+	pets = {
+		{
+			itemID = 169382, -- Lost Robogrip
+			npcID = 154854, -- Lost Robogrip
+		},
+	},
+}
+
+NPCs[150342] = { -- Earthbreaker Gulroc
+	achievementQuestID = 55814,
+	vignetteID = 3634,
+}
+
+NPCs[153205] = { -- Gemicide
+	achievementQuestID = 55855,
+	vignetteID = 3631,
+}
+
+NPCs[153200] = { -- Boilburn
+	achievementQuestID = 55857,
+	vignetteID = 3633,
+}
+
+NPCs[153226] = { -- Steel Singer Freza
+	achievementQuestID = 55854,
+	vignetteID = 3630,
+}
+
+NPCs[151627] = { -- Mr. Fixthis
+	achievementQuestID = 55859,
+	vignetteID = 3636,
+}
+
+NPCs[154153] = { -- Enforcer KX-T57
+	achievementQuestID = 56207,
+	vignetteID = 3690,
+}
+
+NPCs[154701] = { -- Gorged Gear-Cruncher
+	achievementQuestID = 56367,
+	vignetteID = 3735,
+}
+
+NPCs[155060] = { -- Doppel Ganger
+	achievementQuestID = 56419,
+	-- vignetteID = , -- Unless I forgot to note it down, there isn't a vignette.
+}
+
+-- NPCs[151623] = { -- The Scrap King (his mount)
+	-- achievementQuestID = 55364,
+	-- -- No vignette for this mob.
+-- }
+
+NPCs[151625] = { -- The Scrap King
+	achievementQuestID = 55364,
+	vignetteID = 3550,
+}
+
+NPCs[151684] = { -- Jawbreaker
+	achievementQuestID = 55399,
+	vignetteID = 3553,
+}
+
+NPCs[150575] = { -- Rumblerocks
+	achievementQuestID = 55368,
+	vignetteID = 3555,
+}
+
+NPCs[152007] = { -- Killsaw
+	achievementQuestID = 55369,
+	vignetteID = 3574,
+	toys = {
+		{
+			itemID = 167931, -- Mechagonian Sawblades
+		},
+	},
+}
+
+NPCs[151202] = { -- Foul Manifestation
+	classification = "rareelite",
+	achievementQuestID = 55513,
+	vignetteID = 3573,
+}
+
+NPCs[151159] = { -- OOX-Fleetfoot/MG
+	questID = 55515,
+}
+
+NPCs[151296] = { -- OOX-Avenger/MG
+	classification = "rareelite",
+	achievementQuestID = 55515,
+	vignetteID = 3575,
+}
+
+NPCs[151308] = { -- Boggac Skullbash
+	classification = "rareelite",
+	achievementQuestID = 55539,
+	vignetteID = 3583,
+}
+
+NPCs[150937] = { -- Seaspit
+	achievementQuestID = 55545,
+	vignetteID = 3585,
+}
+
+NPCs[152182] = { -- Rustfeather
+	achievementQuestID = 55811,
+	vignetteID = 3627,
+	mounts = {
+		{
+			itemID = 168370, -- Rusted Keys to the Junkheap Drifter
+			spellID = 297157, -- Junkheap Drifter
+		},
+	},
+}
+
+NPCs[152570] = { -- Crazed Trogg
+	achievementQuestID = 55812,
+	vignetteID = 3593,
+}
+
+NPCs[153206] = { -- Ol' Big Tusk
+	achievementQuestID = 55853,
+	vignetteID = 3629,
+}
+
+NPCs[152764] = { -- Oxidized Leachbeast
+	achievementQuestID = 55856,
+	vignetteID = 3632,
+}
+
+NPCs[152113] = { -- The Kleptoboss
+	achievementQuestID = 55858,
+	vignetteID = 3635,
+	pets = {
+		{
+			itemiID = 169886, -- Spraybot 0D
+			npcID = 155600, -- Spraybot 0D
+		}
+	},
+}
+
+NPCs[153228] = { -- Gear Checker Cogstar
+	achievementQuestID = 55852,
+	vignetteID = 3628,
+}
+
+NPCs[150394] = { -- Armored Vaultbot
+	classification = "rareelite",
+	achievementQuestID = 55546,
+	vignetteID = 3586,
+	pets = {
+		{
+			itemID = 170072,
+			npcID = 155829,
+		},
+	},
+}
+
+NPCs[154225] = { -- The Rusty Prince
+	achievementQuestID = 56182,
+	vignetteID = 3687,
+	toys = {
+		{
+			itemID = 169347, -- Judgment of Mechagon
+		},
+	},
+}
+
+NPCs[154739] = { -- Caustic Mechaslime 
+	achievementQuestID = 56368,
+	vignetteID = 3736,
+}
+
+NPCs[155583] = { -- Scrapclaw
+	achievementQuestID = 56737,
+	vignetteID = 3756,
+}
+
+-- ----------------------------------------------------------------------------
 -- Stormsong Valley
 -- ----------------------------------------------------------------------------
 NPCs[129803] = { -- Whiplash
