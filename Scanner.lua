@@ -101,7 +101,7 @@ local function CanAddToScanList(npcID)
 		return true
 	end
 
-	if npc.factionGroup and npc.factionGroup == _G.UnitFactionGroup("player") then
+	if npc.factionGroup == _G.UnitFactionGroup("player") then
 		return false
 	end
 
@@ -116,7 +116,13 @@ local function CanAddToScanList(npcID)
 		return false
 	end
 
-	if npc:HasQuest() then
+	if npc:HasActiveWorldQuest() then
+		return true
+	end
+
+	local hasQuest = npc:HasQuest()
+
+	if hasQuest then
 		if not npc:IsQuestComplete() then
 			return true
 		elseif detection.ignoreCompletedQuestObjectives then
@@ -134,6 +140,9 @@ local function CanAddToScanList(npcID)
 		if detection.ignoreCompletedAchievementCriteria and npc:IsAchievementCriteriaComplete() then
 			return false
 		end
+	elseif npc.worldQuestID and not hasQuest then
+		-- Ignore NPCs with an inactive World Quest but no tracking quest and no achievement.
+		return false
 	end
 
 	return true

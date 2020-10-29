@@ -3,6 +3,7 @@
 -- ----------------------------------------------------------------------------
 local AddOnFolderName, private = ...
 local NPCs = private.Data.NPCs
+local NPCClassification = private.Enum.NPCClassification
 
 -- ----------------------------------------------------------------------------
 -- Durotar
@@ -64,24 +65,75 @@ NPCs[14430] = { -- Duskstalker
 -- Darkshore
 -- ----------------------------------------------------------------------------
 NPCs[2172] = { -- Strider Clutchmother
+	classification = NPCClassification.Rare,
 	isTameable = true,
+	-- questID = ,
+	-- vignetteID = ,
 }
 
 NPCs[2175] = { -- Shadowclaw
+	classification = NPCClassification.Rare,
 	isTameable = true,
+	-- questID = ,
+	-- vignetteID = ,
+}
+
+NPCs[2184] = { -- Lady Moongazer
+	classification = NPCClassification.Rare,
+	-- questID = ,
+	-- vignetteID = ,
+}
+
+NPCs[2186] = { -- Carnivous the Breaker
+	classification = NPCClassification.Rare,
+	-- questID = ,
+	-- vignetteID = ,
+}
+
+NPCs[2191] = { -- Licillin
+	classification = NPCClassification.Rare,
+	-- questID = ,
+	-- vignetteID = ,
+}
+
+NPCs[2192] = { -- Firecaller Radison
+	classification = NPCClassification.Rare,
+	-- questID = ,
+	-- vignetteID = ,
+}
+
+NPCs[7015] = { -- Flagglemurk the Cruel
+	classification = NPCClassification.Rare,
+	-- questID = ,
+	-- vignetteID = ,
+}
+
+NPCs[7016] = { -- Lady Vespira
+	classification = NPCClassification.Rare,
+	-- questID = ,
+	-- vignetteID = ,
+}
+
+NPCs[7017] = { -- Lord Sinslayer
+	classification = NPCClassification.Rare,
+	-- questID = ,
+	-- vignetteID = ,
 }
 
 NPCs[148295] = { -- Ivus the Decayed
+	classification = NPCClassification.RareElite,
 	factionGroup = "Horde",
 	questID = 54895,
 }
 
 NPCs[144946] = { -- Ivus the Forest Lord
+	classification = NPCClassification.RareElite,
 	factionGroup = "Alliance",
 	questID = 54896,
 }
 
 NPCs[148787] = { -- Alash'anir
+	classification = NPCClassification.RareElite,
 	mounts = {
 		{
 			itemID = 166432, -- Ashenvale Chimaera
@@ -93,6 +145,7 @@ NPCs[148787] = { -- Alash'anir
 }
 
 NPCs[148790] = { -- Frightened Kodo
+	classification = NPCClassification.Normal,
 	mounts = {
 		{
 			itemID = 166433, -- Frightened Kodo
@@ -102,6 +155,7 @@ NPCs[148790] = { -- Frightened Kodo
 }
 
 NPCs[149652] = { -- Agathe Wyrmwood
+	classification = NPCClassification.Rare,
 	factionGroup = "Horde",
 	mounts = {
 		{
@@ -114,6 +168,7 @@ NPCs[149652] = { -- Agathe Wyrmwood
 }
 
 NPCs[149655] = { -- Croz Bloodrage
+	classification = NPCClassification.Rare,
 	factionGroup = "Horde",
 	mounts = {
 		{
@@ -126,6 +181,7 @@ NPCs[149655] = { -- Croz Bloodrage
 }
 
 NPCs[147701] = { -- Moxo the Beheader
+	classification = NPCClassification.Rare,
 	factionGroup = "Horde",
 	mounts = {
 		{
@@ -137,11 +193,20 @@ NPCs[147701] = { -- Moxo the Beheader
 	vignetteID = 3364,
 }
 
+NPCs[149651] = { -- Blackpaw
+	classification = NPCClassification.RareElite,
+	isTameable = true,
+	factionGroup = "Alliance",
+	-- questID = ,
+	-- vignetteID = ,
+}
+
 NPCs[149660] = { -- Blackpaw
+	classification = NPCClassification.Rare,
 	factionGroup = "Alliance",
 	mounts = {
 		{
-			itemID = 166438, -- Caged Bear
+			itemID = 166428, -- Blackpaw
 			spellID = 288438 -- Blackpaw
 		},
 	},
@@ -150,10 +215,11 @@ NPCs[149660] = { -- Blackpaw
 }
 
 NPCs[149663] = { -- Shadowclaw
+	classification = NPCClassification.Rare,
 	factionGroup = "Alliance",
 	mounts = {
 		{
-			itemID = 166437, -- Captured Kaldorei Nightsaber
+			itemID = 166435, -- Kaldorei Nightsaber
 			spellID = 288505 -- Kaldorei Nightsaber
 		},
 	},
@@ -162,10 +228,11 @@ NPCs[149663] = { -- Shadowclaw
 }
 
 NPCs[148037] = { -- Athil Dewfire
+	classification = NPCClassification.Rare,
 	factionGroup = "Alliance",
 	mounts = {
 		{
-			itemID = 166434, -- Captured Umber Nightsaber
+			itemID = 166803, -- Umber Nightsaber
 			spellID = 288503 -- Umber Nightsaber
 		},
 	},
@@ -174,6 +241,7 @@ NPCs[148037] = { -- Athil Dewfire
 }
 
 NPCs[147260] = { -- Conflagros
+	classification = NPCClassification.RareElite,
 	pets = {
 		{
 			itemID = 166451, -- Rattling Bones
@@ -185,6 +253,7 @@ NPCs[147260] = { -- Conflagros
 }
 
 NPCs[147241] = { -- Cyclarus
+	classification = NPCClassification.RareElite,
 	pets = {
 		{
 			itemID = 166448, -- Binding of Cyclarus
@@ -195,6 +264,7 @@ NPCs[147241] = { -- Cyclarus
 	vignetteID = 3352,
 }
 NPCs[147240] = { -- Hydrath
+	classification = NPCClassification.RareElite,
 	pets = {
 		{
 			itemID = 166452, -- Bottled Essence of Hydrath
@@ -206,6 +276,7 @@ NPCs[147240] = { -- Hydrath
 }
 
 NPCs[147897] = { -- Soggoth the Slitherer
+	classification = NPCClassification.RareElite,
 	pets = {
 		{
 			itemID = 166454, -- Squishy Purple Goo
@@ -217,6 +288,7 @@ NPCs[147897] = { -- Soggoth the Slitherer
 }
 
 NPCs[147942] = { -- Twilight Prophet Graeme
+	classification = NPCClassification.Rare,
 	pets = {
 		{
 			itemID = 166455, -- Zur'aj the Depleted
@@ -228,6 +300,7 @@ NPCs[147942] = { -- Twilight Prophet Graeme
 }
 
 NPCs[147664] = { -- Zim'kaga
+	classification = NPCClassification.RareElite,
 	factionGroup = "Horde",
 	pets = {
 		{
@@ -240,6 +313,7 @@ NPCs[147664] = { -- Zim'kaga
 }
 
 NPCs[149659] = { -- Orwell Stevenson
+	classification = NPCClassification.Rare,
 	factionGroup = "Horde",
 	pets = {
 		{
@@ -252,6 +326,7 @@ NPCs[149659] = { -- Orwell Stevenson
 }
 
 NPCs[147758] = { -- Onu
+	classification = NPCClassification.RareElite,
 	factionGroup = "Alliance",
 	pets = {
 		{
@@ -264,6 +339,7 @@ NPCs[147758] = { -- Onu
 }
 
 NPCs[149662] = { -- Grimhorn
+	classification = NPCClassification.Rare,
 	factionGroup = "Alliance",
 	pets = {
 		{
@@ -276,6 +352,7 @@ NPCs[149662] = { -- Grimhorn
 }
 
 NPCs[148031] = { -- Gren Tornfur
+	classification = NPCClassification.Rare,
 	toys = {
 		{ itemID = 166785, }, -- Detoxified Blight Grenade
 	},
@@ -284,6 +361,7 @@ NPCs[148031] = { -- Gren Tornfur
 }
 
 NPCs[147708] = { -- Athrikus Narassin
+	classification = NPCClassification.RareElite,
 	toys = {
 		{ itemID = 166784, }, -- Narassin's Soul Gem
 	},
@@ -292,6 +370,7 @@ NPCs[147708] = { -- Athrikus Narassin
 }
 
 NPCs[148025] = { -- Commander Ral'esh
+	classification = NPCClassification.Rare,
 	toys = {
 		{ itemID = 166787, }, -- Twiddle Twirler: Sentinel's Glaive
 	},
@@ -300,6 +379,7 @@ NPCs[148025] = { -- Commander Ral'esh
 }
 
 NPCs[147845] = { -- Commander Drald
+	classification = NPCClassification.Rare,
 	factionGroup = "Horde",
 	toys = {
 		{ itemID = 166790, }, -- Highborne Memento
@@ -309,6 +389,7 @@ NPCs[147845] = { -- Commander Drald
 }
 
 NPCs[149141] = { -- Burninator Mark V
+	classification = NPCClassification.Rare,
 	factionGroup = "Horde",
 	toys = {
 		{ itemID = 166788, }, -- Twiddle Twirler: Shredder Blade
@@ -318,6 +399,7 @@ NPCs[149141] = { -- Burninator Mark V
 }
 
 NPCs[147435] = { -- Thelar Moonstrike
+	classification = NPCClassification.Rare,
 	factionGroup = "Alliance",
 	toys = {
 		{ itemID = 166790, }, -- Highborne Memento
@@ -327,6 +409,7 @@ NPCs[147435] = { -- Thelar Moonstrike
 }
 
 NPCs[148103] = { -- Sapper Odette
+	classification = NPCClassification.Rare,
 	factionGroup = "Alliance",
 	toys = {
 		{ itemID = 166788, }, -- Twiddle Twirler: Shredder Blade
@@ -336,46 +419,56 @@ NPCs[148103] = { -- Sapper Odette
 }
 
 NPCs[147966] = { -- Aman
+	classification = NPCClassification.RareElite,
 	questID = 54406,
 	vignetteID = 3376,
 }
 
 NPCs[147970] = { -- Mrggr'marr
+	classification = NPCClassification.Rare,
 	questID = 54409,
 	vignetteID = 3377,
 }
 
 NPCs[147332] = { -- Stonebinder Ssra'vess
+	classification = NPCClassification.Rare,
 	questID = 54248,
 	vignetteID = 3355,
 }
 
 NPCs[147261] = { -- Granokk
+	classification = NPCClassification.RareElite,
 	questID = 54235,
 	vignetteID = 3354,
 }
 
 NPCs[149657] = { -- Madfeather
+	classification = NPCClassification.Rare,
 	questID = 54888,
 	vignetteID = 3522,
 }
 
 NPCs[149665] = { -- Scalefiend
+	classification = NPCClassification.Rare,
 	questID = 54894,
 	vignetteID = 3194,
 }
 
 NPCs[147751] = { -- Shattershard
+	classification = NPCClassification.RareElite,
 	questID = 54290,
 	vignetteID = 3368,
 }
 
 NPCs[149654] = { -- Glimmerspine
+	classification = NPCClassification.Rare,
+	isTameable = true,
 	questID = 54885,
 	vignetteID = 3520,
 }
 
 NPCs[147744] = { -- Amberclaw (Glrglrr's Mount)
+	classification = NPCClassification.Rare,
 	questID = 54286,
 	vignetteID = 3367,
 }

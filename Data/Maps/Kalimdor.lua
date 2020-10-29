@@ -91,6 +91,7 @@ Maps[MapID.Darkshore].NPCs = {
     [149652] = true, -- Agathe Wyrmwood
     [149655] = true, -- Croz Bloodrage
     [147701] = true, -- Moxo the Beheader
+	[149651] = true, -- Blackpaw
     [149660] = true, -- Blackpaw
     [149663] = true, -- Shadowclaw
     [148037] = true, -- Athil Dewfire

@@ -3,6 +3,7 @@
 -- ----------------------------------------------------------------------------
 local AddOnFolderName, private = ...
 local NPCs = private.Data.NPCs
+local NPCClassification = private.Enum.NPCClassification
 
 -- ----------------------------------------------------------------------------
 -- Arathi Highlands
@@ -44,46 +45,51 @@ NPCs[51067] = { -- Glint
 }
 
 NPCs[137374] = { -- The Lion's Roar
-	-- 53001, 52848
-	questID = 53001,
+	classification = NPCClassification.Elite,
 	factionGroup = "Alliance",
 	toys = {
 		{ itemID = 163829, }, -- Toy War Machine
 	},
+	vignetteID = -1,
+	worldQuestID = 52848, -- The Lion's Roar
 }
 
 NPCs[138122] = { -- Doom's Howl
-	questID = 52847,
+	classification = NPCClassification.Elite,
 	factionGroup = "Horde",
 	toys = {
 		{ itemID = 163828, }, -- Toy Siege Tower
 	},
+	vignetteID = -1,
+	worldQuestID = 52847, -- Doom's Howl
 }
 
 NPCs[141615] = { -- Burning Goliath
+	classification = NPCClassification.RareElite,
 	questID = 53506,
 	vignetteID = 3194,
 }
 
 NPCs[141616] = { -- Thundering Goliath
-	classification = "rareelite",
+	classification = NPCClassification.RareElite,
 	questID = 53527,
 	vignetteID = 3200,
 }
 
 NPCs[141618] = { -- Cresting Goliath
-	classification = "rareelite",
+	classification = NPCClassification.RareElite,
 	questID = 53531,
 	vignetteID = 3195,
 }
 
 NPCs[141620] = { -- Rumbling Goliath
-	classification = "rareelite",
+	classification = NPCClassification.RareElite,
 	questID = 53523,
 	vignetteID = 3198,
 }
 
 NPCs[142423] = { -- Overseer Krix
+	classification = NPCClassification.RareElite,
 	mounts = {
 		{
 			itemID = 163646, -- Lil' Donkey
@@ -95,7 +101,7 @@ NPCs[142423] = { -- Overseer Krix
 }
 
 NPCs[142433] = { -- Fozruk
-	classification = "rareelite",
+	classification = NPCClassification.RareElite,
 	pets = {
 		{
 			itemID = 163711, -- Shard of Fozruk
@@ -107,7 +113,7 @@ NPCs[142433] = { -- Fozruk
 }
 
 NPCs[142435] = { -- Plaguefeather
-	classification = "rareelite",
+	classification = NPCClassification.RareElite,
 	isTameable = true,
 	pets = {
 		{
@@ -120,7 +126,8 @@ NPCs[142435] = { -- Plaguefeather
 }
 
 NPCs[142436] = { -- Ragebeak
-	classification = "rareelite",
+	classification = NPCClassification.RareElite,
+	isTameable = true,
 	pets = {
 		{
 			itemID = 163689, -- Angry Egg
@@ -132,7 +139,8 @@ NPCs[142436] = { -- Ragebeak
 }
 
 NPCs[142437] = { -- Skullripper
-	classification = "rareelite",
+	classification = NPCClassification.RareElite,
+	isTameable = true,
 	mounts = {
 		{
 			itemID = 163645, -- Skullripper
@@ -144,7 +152,8 @@ NPCs[142437] = { -- Skullripper
 }
 
 NPCs[142438] = { -- Venomarus
-	classification = "rareelite",
+	classification = NPCClassification.RareElite,
+	isTameable = true,
 	pets = {
 		{
 			itemID = 163648, -- Fuzzy Creepling
@@ -156,7 +165,8 @@ NPCs[142438] = { -- Venomarus
 }
 
 NPCs[142440] = { -- Yogursa
-	classification = "rareelite",
+	classification = NPCClassification.RareElite,
+	isTameable = true,
 	pets = {
 		{
 			itemID = 163684, -- Scabby,
@@ -168,7 +178,7 @@ NPCs[142440] = { -- Yogursa
 }
 
 NPCs[142508] = { -- Branchlord Aldrus
-	classification = "rareelite",
+	classification = NPCClassification.RareElite,
 	pets = {
 		{
 			itemID = 163650, -- Aldrusian Sproutling
@@ -180,6 +190,7 @@ NPCs[142508] = { -- Branchlord Aldrus
 }
 
 NPCs[142662] = { -- Geomancer Flintdagger
+	classification = NPCClassification.Rare,
 	questID = 53511,
 	toys = {
 		{ itemID = 163713, }, -- Brazier Cap
@@ -188,6 +199,7 @@ NPCs[142662] = { -- Geomancer Flintdagger
 }
 
 NPCs[141668] = { -- Echo of Myzrael
+	classification = NPCClassification.RareElite,
 	pets = {
 		{
 			itemID = 163677, -- Teeny Titan Orb
@@ -199,6 +211,7 @@ NPCs[141668] = { -- Echo of Myzrael
 }
 
 NPCs[141942] = { -- Molok the Crusher
+	classification = NPCClassification.RareElite,
 	questID = 53516,
 	toys = {
 		{ itemID = 163775, }, -- Molok Morion
@@ -207,6 +220,7 @@ NPCs[141942] = { -- Molok the Crusher
 }
 
 NPCs[142112] = { -- Kor'gresh Coldrage
+	classification = NPCClassification.Rare,
 	questID = 53513,
 	toys = {
 		{ itemID = 163744, }, -- Coldrage's Cooler
@@ -215,6 +229,7 @@ NPCs[142112] = { -- Kor'gresh Coldrage
 }
 
 NPCs[142682] = { -- Zalas Witherbark
+	classification = NPCClassification.Rare,
 	questID = 53530,
 	toys = {
 		{ itemID = 163745, }, -- Witherbark Gong
@@ -223,6 +238,7 @@ NPCs[142682] = { -- Zalas Witherbark
 }
 
 NPCs[142683] = { -- Ruul Onestone
+	classification = NPCClassification.Rare,
 	toys = {
 		{ itemID = 163741, }, -- Magic Fun Rock
 	},
@@ -231,6 +247,7 @@ NPCs[142683] = { -- Ruul Onestone
 }
 
 NPCs[142684] = { -- Kovork
+	classification = NPCClassification.Rare,
 	questID = 53514,
 	toys = {
 		{ itemID = 163750 }, -- Kovork Kostume
@@ -239,6 +256,7 @@ NPCs[142684] = { -- Kovork
 }
 
 NPCs[142686] = { -- Foulbelly
+	classification = NPCClassification.Rare,
 	questID = 53509,
 	toys = {
 		{ itemID = 163735, }, -- Foul Belly
@@ -247,6 +265,7 @@ NPCs[142686] = { -- Foulbelly
 }
 
 NPCs[142688] = { -- Darbel Montrose
+	classification = NPCClassification.Rare,
 	pets = {
 		{
 			itemID = 163652, -- Tiny Grimoire
@@ -258,6 +277,7 @@ NPCs[142688] = { -- Darbel Montrose
 }
 
 NPCs[142690] = { -- Singer
+	classification = NPCClassification.Rare,
 	questID = 53525,
 	toys = {
 		{ itemID = 163738, } -- Syndicate Mask
@@ -266,6 +286,7 @@ NPCs[142690] = { -- Singer
 }
 
 NPCs[142692] = { -- Nimar the Slayer
+	classification = NPCClassification.Rare,
 	mounts = {
 		{
 			itemID = 163706, -- Witherbark Direwing
@@ -277,6 +298,7 @@ NPCs[142692] = { -- Nimar the Slayer
 }
 
 NPCs[142709] = { -- Beastrider Kama
+	classification = NPCClassification.Rare,
 	mounts = {
 		{
 			itemID = 163644, -- Swift Albino Raptor
@@ -288,6 +310,7 @@ NPCs[142709] = { -- Beastrider Kama
 }
 
 NPCs[142716] = { -- Man-Hunter Rog
+	classification = NPCClassification.Rare,
 	pets = {
 		{
 			itemID = 163712, -- Mana-Warped Egg
@@ -299,6 +322,7 @@ NPCs[142716] = { -- Man-Hunter Rog
 }
 
 NPCs[142725] = { -- Horrific Apparition
+	classification = NPCClassification.Rare,
 	questID = 53512,
 	toys = {
 		{ itemID = 163736, } -- Spectral Visage
@@ -307,8 +331,8 @@ NPCs[142725] = { -- Horrific Apparition
 }
 
 NPCs[142739] = { -- Knight-Captain Aldrin
+	classification = NPCClassification.Rare,
 	factionGroup = "Alliance",
-	questID = 53088,
 	mounts = {
 		{
 			itemID = 163578, -- Broken Highland Mustang
@@ -316,9 +340,11 @@ NPCs[142739] = { -- Knight-Captain Aldrin
 		},
 	},
 	vignetteID = 3212,
+	questID = 53088,
 }
 
 NPCs[142741] = { -- Doomrider Helgrim
+	classification = NPCClassification.Rare,
 	factionGroup = "Horde",
 	mounts = {
 		{
