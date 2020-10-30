@@ -109,12 +109,6 @@ NPCs[126142] = { -- Bajiatha
 NPCs[126187] = { -- Corpse Bringer Yal'kar
 	achievementQuestID = 48462, -- Corpse Bringer Yal'kar
 	classification = NPCClassification.Rare,
-	mounts = {
-		{
-			itemID = 163575, -- Reins of a Tamed Bloodfeaster
-			spellID = 243795 -- Leaping Veinseeker
-		}
-	},
 	vignetteID = 2130,
 	worldQuestID = 50491, -- Corpse Bringer Yal'kar
 }
