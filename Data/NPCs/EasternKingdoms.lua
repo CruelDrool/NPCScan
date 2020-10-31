@@ -339,8 +339,8 @@ NPCs[142739] = { -- Knight-Captain Aldrin
 			spellID = 279457, -- Broken Highland Mustang
 		},
 	},
-	vignetteID = 3212,
 	questID = 53088,
+	vignetteID = 3212,
 }
 
 NPCs[142741] = { -- Doomrider Helgrim
