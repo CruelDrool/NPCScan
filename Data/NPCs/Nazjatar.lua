@@ -431,6 +431,111 @@ NPCs[152795] = { -- Sandclaw Stoneshell
 	},
 }
 
+NPCs[153296] = { -- Shalan'ali Stormtongue
+	classification = NPCClassification.Normal,
+	achievementQuestID = 55898,
+	worldQuestID = 55898,
+	-- vignetteID = ,
+}
+
+NPCs[153299] = { -- Bonebreaker Szun
+	classification = NPCClassification.Normal,
+	achievementQuestID = 55897,
+	worldQuestID = 55897,
+	-- vignetteID = ,
+}
+
+NPCs[153300] = { -- Iron Zoko
+	classification = NPCClassification.Normal,
+	achievementQuestID = 55894,
+	worldQuestID = 55894,
+	-- vignetteID = ,
+}
+
+NPCs[153301] = { -- Shirakess Starseeker
+	classification = NPCClassification.Normal,
+	achievementQuestID = 55899,
+	worldQuestID = 55899,
+	-- vignetteID = ,
+}
+
+NPCs[153302] = { -- Glacier Mage Zhiela
+	classification = NPCClassification.Normal,
+	achievementQuestID = 55895,
+	worldQuestID = 55895,
+	-- vignetteID = ,
+}
+
+NPCs[153303] = { -- Voidblade Kassar
+	classification = NPCClassification.Normal,
+	achievementQuestID = 55900,
+	worldQuestID = 55900,
+	-- vignetteID = ,
+}
+
+NPCs[153304] = { -- Undana Frostbarb
+	classification = NPCClassification.Normal,
+	achievementQuestID = 55896,
+	worldQuestID = 55896,
+	-- vignetteID = ,
+}
+
+NPCs[153305] = { -- Zanj'ir Brutalizer
+	classification = NPCClassification.Normal,
+	achievementQuestID = 55886,
+	worldQuestID = 55886,
+	-- vignetteID = ,
+}
+
+NPCs[153309] = { -- Alzana, Arrow of Thunder
+	classification = NPCClassification.Elite,
+	achievementQuestID = 55887,
+	worldQuestID = 55887,
+	-- vignetteID = ,
+}
+
+NPCs[153310] = { -- Qalina, Spear of Ice
+	classification = NPCClassification.Elite,
+	achievementQuestID = 55888,
+	worldQuestID = 55888,
+	-- vignetteID = ,
+}
+
+NPCs[153311] = { -- Slitherblade Azanz
+	classification = NPCClassification.Normal,
+	achievementQuestID = 55893,
+	worldQuestID = 55893,
+	-- vignetteID = ,
+}
+
+NPCs[153312] = { -- Kyx'zhul the Deepspeaker
+	classification = NPCClassification.Elite,
+	achievementQuestID = 55889,
+	worldQuestID = 55889,
+	-- vignetteID = ,
+}
+
+NPCs[153313] = { -- Vyz'olgo the Mind-Taker
+	classification = NPCClassification.Elite,
+	achievementQuestID = 55890,
+	worldQuestID = 55890,
+	-- vignetteID = ,
+}
+
+NPCs[153314] = { -- Aldrantiss
+	classification = NPCClassification.Elite,
+	achievementQuestID = 55891,
+	worldQuestID = 55891,
+	-- vignetteID = ,
+}
+
+NPCs[153315] = { -- Eldanar
+	classification = NPCClassification.Elite,
+	achievementQuestID = 55892,
+	worldQuestID = 55892,
+	-- vignetteID = ,
+}
+
 NPCs[153658] = { -- Shiz'narasz the Consumer
 	classification = NPCClassification.RareElite,
 	-- Kill #1: 56680, 56587, 56296
@@ -497,109 +602,4 @@ NPCs[155841] = { -- Shadowbinder Athissa
 	classification = NPCClassification.RareElite,
 	questID = 56894,
 	vignetteID = 3762,
-}
-
-NPCs[153299] = { -- Bonebreaker Szun
-	classification = NPCClassification.Normal,
-	achievementQuestID = 55897,
-	worldQuestID = 55897,
-	-- vignetteID = ,
-}
-
-NPCs[153300] = { -- Iron Zoko
-	classification = NPCClassification.Normal,
-	achievementQuestID = 55894,
-	worldQuestID = 55894,
-	-- vignetteID = ,
-}
-
-NPCs[153301] = { -- Shirakess Starseeker
-	classification = NPCClassification.Normal,
-	achievementQuestID = 55899,
-	worldQuestID = 55899,
-	-- vignetteID = ,
-}
-
-NPCs[153304] = { -- Undana Frostbarb
-	classification = NPCClassification.Normal,
-	achievementQuestID = 55896,
-	worldQuestID = 55896,
-	-- vignetteID = ,
-}
-
-NPCs[153305] = { -- Zanj'ir Brutalizer
-	classification = NPCClassification.Normal,
-	achievementQuestID = 55886,
-	worldQuestID = 55886,
-	-- vignetteID = ,
-}
-
-NPCs[153309] = { -- Alzana, Arrow of Thunder
-	classification = NPCClassification.Elite,
-	achievementQuestID = 55887,
-	worldQuestID = 55887,
-	-- vignetteID = ,
-}
-
-NPCs[153312] = { -- Kyx'zhul the Deepspeaker
-	classification = NPCClassification.Elite,
-	achievementQuestID = 55889,
-	worldQuestID = 55889,
-	-- vignetteID = ,
-}
-
-NPCs[153313] = { -- Vyz'olgo the Mind-Taker
-	classification = NPCClassification.Elite,
-	achievementQuestID = 55890,
-	worldQuestID = 55890,
-	-- vignetteID = ,
-}
-
-NPCs[153302] = { -- Glacier Mage Zhiela
-	classification = NPCClassification.Normal,
-	achievementQuestID = 55895,
-	worldQuestID = 55895,
-	-- vignetteID = ,
-}
-
-NPCs[153296] = { -- Shalan'ali Stormtongue
-	classification = NPCClassification.Normal,
-	achievementQuestID = 55898,
-	worldQuestID = 55898,
-	-- vignetteID = ,
-}
-
-NPCs[153311] = { -- Slitherblade Azanz
-	classification = NPCClassification.Normal,
-	achievementQuestID = 55893,
-	worldQuestID = 55893,
-	-- vignetteID = ,
-}
-
-NPCs[153303] = { -- Voidblade Kassar
-	classification = NPCClassification.Normal,
-	achievementQuestID = 55900,
-	worldQuestID = 55900,
-	-- vignetteID = ,
-}
-
-NPCs[153314] = { -- Aldrantiss
-	classification = NPCClassification.Elite,
-	achievementQuestID = 55891,
-	worldQuestID = 55891,
-	-- vignetteID = ,
-}
-
-NPCs[153315] = { -- Eldanar
-	classification = NPCClassification.Elite,
-	achievementQuestID = 55892,
-	worldQuestID = 55892,
-	-- vignetteID = ,
-}
-
-NPCs[153310] = { -- Qalina, Spear of Ice
-	classification = NPCClassification.Elite,
-	achievementQuestID = 55888,
-	worldQuestID = 55888,
-	-- vignetteID = ,
 }

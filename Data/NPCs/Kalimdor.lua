@@ -120,64 +120,81 @@ NPCs[7017] = { -- Lord Sinslayer
 	-- vignetteID = ,
 }
 
-NPCs[148295] = { -- Ivus the Decayed
-	classification = NPCClassification.RareElite,
-	factionGroup = "Horde",
-	questID = 54895,
-}
-
 NPCs[144946] = { -- Ivus the Forest Lord
 	classification = NPCClassification.RareElite,
 	factionGroup = "Alliance",
 	questID = 54896,
 }
 
-NPCs[148787] = { -- Alash'anir
+NPCs[147240] = { -- Hydrath
 	classification = NPCClassification.RareElite,
-	mounts = {
+	pets = {
 		{
-			itemID = 166432, -- Ashenvale Chimaera
-			spellID = 288495 -- Ashenvale Chimaera
+			itemID = 166452, -- Bottled Essence of Hydrath
+			npcID = 148841, -- Hydrath Droplet
 		},
 	},
-	questID = 54696,
-	vignetteID = 3392,
+	questID = 54228,
+	vignetteID = 3351,
 }
 
-NPCs[148790] = { -- Frightened Kodo
-	classification = NPCClassification.Normal,
-	mounts = {
+NPCs[147241] = { -- Cyclarus
+	classification = NPCClassification.RareElite,
+	pets = {
 		{
-			itemID = 166433, -- Frightened Kodo
-			spellID = 288499 -- Frightened Kodo
+			itemID = 166448, -- Binding of Cyclarus
+			npcID = 148784, -- Gust of Cyclarus
 		},
 	},
+	questID = 54230,
+	vignetteID = 3352,
 }
 
-NPCs[149652] = { -- Agathe Wyrmwood
+NPCs[147260] = { -- Conflagros
+	classification = NPCClassification.RareElite,
+	pets = {
+		{
+			itemID = 166451, -- Rattling Bones
+			npcID = 148825, -- Detective Ray
+		},
+	},
+	questID = 54233,
+	vignetteID = 3353,
+}
+
+NPCs[147261] = { -- Granokk
+	classification = NPCClassification.RareElite,
+	questID = 54235,
+	vignetteID = 3354,
+}
+
+NPCs[147332] = { -- Stonebinder Ssra'vess
 	classification = NPCClassification.Rare,
-	factionGroup = "Horde",
-	mounts = {
-		{
-			itemID = 166438, -- Caged Bear
-			spellID = 288438 -- Blackpaw
-		},
-	},
-	questID = 54883,
-	vignetteID = 3519,
+	questID = 54248,
+	vignetteID = 3355,
 }
 
-NPCs[149655] = { -- Croz Bloodrage
+NPCs[147435] = { -- Thelar Moonstrike
 	classification = NPCClassification.Rare,
+	factionGroup = "Alliance",
+	toys = {
+		{ itemID = 166790, }, -- Highborne Memento
+	},
+	questID = 54252,
+	vignetteID = 3360,
+}
+
+NPCs[147664] = { -- Zim'kaga
+	classification = NPCClassification.RareElite,
 	factionGroup = "Horde",
-	mounts = {
+	pets = {
 		{
-			itemID = 166437, -- Captured Kaldorei Nightsaber
-			spellID = 288505 -- Kaldorei Nightsaber
+			itemID = 166453, -- Everburning Treant
+			npcID = 148843, -- Everburning Treant
 		},
 	},
-	questID = 54886,
-	vignetteID = 3521,
+	questID = 54274,
+	vignetteID = 3363,
 }
 
 NPCs[147701] = { -- Moxo the Beheader
@@ -193,86 +210,48 @@ NPCs[147701] = { -- Moxo the Beheader
 	vignetteID = 3364,
 }
 
-NPCs[149651] = { -- Blackpaw
+NPCs[147708] = { -- Athrikus Narassin
 	classification = NPCClassification.RareElite,
-	isTameable = true,
-	factionGroup = "Alliance",
-	-- questID = ,
-	-- vignetteID = ,
-}
-
-NPCs[149660] = { -- Blackpaw
-	classification = NPCClassification.Rare,
-	factionGroup = "Alliance",
-	mounts = {
-		{
-			itemID = 166428, -- Blackpaw
-			spellID = 288438 -- Blackpaw
-		},
+	toys = {
+		{ itemID = 166784, }, -- Narassin's Soul Gem
 	},
-	questID = 54890,
-	vignetteID = 3524,
+	questID = 54279,
+	vignetteID = 3365,
 }
 
-NPCs[149663] = { -- Shadowclaw
+NPCs[147744] = { -- Amberclaw (Glrglrr's Mount)
 	classification = NPCClassification.Rare,
-	factionGroup = "Alliance",
-	mounts = {
-		{
-			itemID = 166435, -- Kaldorei Nightsaber
-			spellID = 288505 -- Kaldorei Nightsaber
-		},
-	},
-	questID = 54892,
-	vignetteID = 3526,
+	questID = 54286,
+	vignetteID = 3367,
 }
 
-NPCs[148037] = { -- Athil Dewfire
-	classification = NPCClassification.Rare,
-	factionGroup = "Alliance",
-	mounts = {
-		{
-			itemID = 166803, -- Umber Nightsaber
-			spellID = 288503 -- Umber Nightsaber
-		},
-	},
-	questID = 54431,
-	vignetteID = 3380,
-}
-
-NPCs[147260] = { -- Conflagros
+NPCs[147751] = { -- Shattershard
 	classification = NPCClassification.RareElite,
+	questID = 54290,
+	vignetteID = 3368,
+}
+
+NPCs[147758] = { -- Onu
+	classification = NPCClassification.RareElite,
+	factionGroup = "Alliance",
 	pets = {
 		{
-			itemID = 166451, -- Rattling Bones
-			npcID = 148825, -- Detective Ray
+			itemID = 166453, -- Everburning Treant
+			npcID = 148843, -- Everburning Treant
 		},
 	},
-	questID = 54233,
-	vignetteID = 3353,
+	questID = 54291,
+	vignetteID = 3369,
 }
 
-NPCs[147241] = { -- Cyclarus
-	classification = NPCClassification.RareElite,
-	pets = {
-		{
-			itemID = 166448, -- Binding of Cyclarus
-			npcID = 148784, -- Gust of Cyclarus
-		},
+NPCs[147845] = { -- Commander Drald
+	classification = NPCClassification.Rare,
+	factionGroup = "Horde",
+	toys = {
+		{ itemID = 166790, }, -- Highborne Memento
 	},
-	questID = 54230,
-	vignetteID = 3352,
-}
-NPCs[147240] = { -- Hydrath
-	classification = NPCClassification.RareElite,
-	pets = {
-		{
-			itemID = 166452, -- Bottled Essence of Hydrath
-			npcID = 148841, -- Hydrath Droplet
-		},
-	},
-	questID = 54228,
-	vignetteID = 3351,
+	questID = 54309,
+	vignetteID = 3372,
 }
 
 NPCs[147897] = { -- Soggoth the Slitherer
@@ -299,17 +278,142 @@ NPCs[147942] = { -- Twilight Prophet Graeme
 	vignetteID = 3375,
 }
 
-NPCs[147664] = { -- Zim'kaga
+NPCs[147966] = { -- Aman
 	classification = NPCClassification.RareElite,
-	factionGroup = "Horde",
-	pets = {
+	questID = 54406,
+	vignetteID = 3376,
+}
+
+NPCs[147970] = { -- Mrggr'marr
+	classification = NPCClassification.Rare,
+	questID = 54409,
+	vignetteID = 3377,
+}
+
+NPCs[148025] = { -- Commander Ral'esh
+	classification = NPCClassification.Rare,
+	toys = {
+		{ itemID = 166787, }, -- Twiddle Twirler: Sentinel's Glaive
+	},
+	questID = 54427,
+	vignetteID = 3378,
+}
+
+NPCs[148031] = { -- Gren Tornfur
+	classification = NPCClassification.Rare,
+	toys = {
+		{ itemID = 166785, }, -- Detoxified Blight Grenade
+	},
+	questID = 54429,
+	vignetteID = 3379,
+}
+
+NPCs[148037] = { -- Athil Dewfire
+	classification = NPCClassification.Rare,
+	factionGroup = "Alliance",
+	mounts = {
 		{
-			itemID = 166453, -- Everburning Treant
-			npcID = 148843, -- Everburning Treant
+			itemID = 166803, -- Umber Nightsaber
+			spellID = 288503 -- Umber Nightsaber
 		},
 	},
-	questID = 54274,
-	vignetteID = 3363,
+	questID = 54431,
+	vignetteID = 3380,
+}
+
+NPCs[148103] = { -- Sapper Odette
+	classification = NPCClassification.Rare,
+	factionGroup = "Alliance",
+	toys = {
+		{ itemID = 166788, }, -- Twiddle Twirler: Shredder Blade
+	},
+	questID = 54452,
+	vignetteID = 3381,
+}
+
+NPCs[148295] = { -- Ivus the Decayed
+	classification = NPCClassification.RareElite,
+	factionGroup = "Horde",
+	questID = 54895,
+}
+
+NPCs[148787] = { -- Alash'anir
+	classification = NPCClassification.RareElite,
+	mounts = {
+		{
+			itemID = 166432, -- Ashenvale Chimaera
+			spellID = 288495 -- Ashenvale Chimaera
+		},
+	},
+	questID = 54696,
+	vignetteID = 3392,
+}
+
+NPCs[148790] = { -- Frightened Kodo
+	classification = NPCClassification.Normal,
+	mounts = {
+		{
+			itemID = 166433, -- Frightened Kodo
+			spellID = 288499 -- Frightened Kodo
+		},
+	},
+}
+
+NPCs[149141] = { -- Burninator Mark V
+	classification = NPCClassification.Rare,
+	factionGroup = "Horde",
+	toys = {
+		{ itemID = 166788, }, -- Twiddle Twirler: Shredder Blade
+	},
+	questID = 54768,
+	vignetteID = 3503,
+}
+
+NPCs[149651] = { -- Blackpaw
+	classification = NPCClassification.RareElite,
+	isTameable = true,
+	factionGroup = "Alliance",
+	-- questID = ,
+	-- vignetteID = ,
+}
+
+NPCs[149652] = { -- Agathe Wyrmwood
+	classification = NPCClassification.Rare,
+	factionGroup = "Horde",
+	mounts = {
+		{
+			itemID = 166438, -- Caged Bear
+			spellID = 288438 -- Blackpaw
+		},
+	},
+	questID = 54883,
+	vignetteID = 3519,
+}
+
+NPCs[149654] = { -- Glimmerspine
+	classification = NPCClassification.Rare,
+	isTameable = true,
+	questID = 54885,
+	vignetteID = 3520,
+}
+
+NPCs[149655] = { -- Croz Bloodrage
+	classification = NPCClassification.Rare,
+	factionGroup = "Horde",
+	mounts = {
+		{
+			itemID = 166437, -- Captured Kaldorei Nightsaber
+			spellID = 288505 -- Kaldorei Nightsaber
+		},
+	},
+	questID = 54886,
+	vignetteID = 3521,
+}
+
+NPCs[149657] = { -- Madfeather
+	classification = NPCClassification.Rare,
+	questID = 54888,
+	vignetteID = 3522,
 }
 
 NPCs[149659] = { -- Orwell Stevenson
@@ -325,17 +429,17 @@ NPCs[149659] = { -- Orwell Stevenson
 	vignetteID = 3523,
 }
 
-NPCs[147758] = { -- Onu
-	classification = NPCClassification.RareElite,
+NPCs[149660] = { -- Blackpaw
+	classification = NPCClassification.Rare,
 	factionGroup = "Alliance",
-	pets = {
+	mounts = {
 		{
-			itemID = 166453, -- Everburning Treant
-			npcID = 148843, -- Everburning Treant
+			itemID = 166428, -- Blackpaw
+			spellID = 288438 -- Blackpaw
 		},
 	},
-	questID = 54291,
-	vignetteID = 3369,
+	questID = 54890,
+	vignetteID = 3524,
 }
 
 NPCs[149662] = { -- Grimhorn
@@ -351,126 +455,23 @@ NPCs[149662] = { -- Grimhorn
 	vignetteID = 3525,
 }
 
-NPCs[148031] = { -- Gren Tornfur
-	classification = NPCClassification.Rare,
-	toys = {
-		{ itemID = 166785, }, -- Detoxified Blight Grenade
-	},
-	questID = 54429,
-	vignetteID = 3379,
-}
-
-NPCs[147708] = { -- Athrikus Narassin
-	classification = NPCClassification.RareElite,
-	toys = {
-		{ itemID = 166784, }, -- Narassin's Soul Gem
-	},
-	questID = 54279,
-	vignetteID = 3365,
-}
-
-NPCs[148025] = { -- Commander Ral'esh
-	classification = NPCClassification.Rare,
-	toys = {
-		{ itemID = 166787, }, -- Twiddle Twirler: Sentinel's Glaive
-	},
-	questID = 54427,
-	vignetteID = 3378,
-}
-
-NPCs[147845] = { -- Commander Drald
-	classification = NPCClassification.Rare,
-	factionGroup = "Horde",
-	toys = {
-		{ itemID = 166790, }, -- Highborne Memento
-	},
-	questID = 54309,
-	vignetteID = 3372,
-}
-
-NPCs[149141] = { -- Burninator Mark V
-	classification = NPCClassification.Rare,
-	factionGroup = "Horde",
-	toys = {
-		{ itemID = 166788, }, -- Twiddle Twirler: Shredder Blade
-	},
-	questID = 54768,
-	vignetteID = 3503,
-}
-
-NPCs[147435] = { -- Thelar Moonstrike
+NPCs[149663] = { -- Shadowclaw
 	classification = NPCClassification.Rare,
 	factionGroup = "Alliance",
-	toys = {
-		{ itemID = 166790, }, -- Highborne Memento
+	mounts = {
+		{
+			itemID = 166435, -- Kaldorei Nightsaber
+			spellID = 288505 -- Kaldorei Nightsaber
+		},
 	},
-	questID = 54252,
-	vignetteID = 3360,
-}
-
-NPCs[148103] = { -- Sapper Odette
-	classification = NPCClassification.Rare,
-	factionGroup = "Alliance",
-	toys = {
-		{ itemID = 166788, }, -- Twiddle Twirler: Shredder Blade
-	},
-	questID = 54452,
-	vignetteID = 3381,
-}
-
-NPCs[147966] = { -- Aman
-	classification = NPCClassification.RareElite,
-	questID = 54406,
-	vignetteID = 3376,
-}
-
-NPCs[147970] = { -- Mrggr'marr
-	classification = NPCClassification.Rare,
-	questID = 54409,
-	vignetteID = 3377,
-}
-
-NPCs[147332] = { -- Stonebinder Ssra'vess
-	classification = NPCClassification.Rare,
-	questID = 54248,
-	vignetteID = 3355,
-}
-
-NPCs[147261] = { -- Granokk
-	classification = NPCClassification.RareElite,
-	questID = 54235,
-	vignetteID = 3354,
-}
-
-NPCs[149657] = { -- Madfeather
-	classification = NPCClassification.Rare,
-	questID = 54888,
-	vignetteID = 3522,
+	questID = 54892,
+	vignetteID = 3526,
 }
 
 NPCs[149665] = { -- Scalefiend
 	classification = NPCClassification.Rare,
 	questID = 54894,
 	vignetteID = 3194,
-}
-
-NPCs[147751] = { -- Shattershard
-	classification = NPCClassification.RareElite,
-	questID = 54290,
-	vignetteID = 3368,
-}
-
-NPCs[149654] = { -- Glimmerspine
-	classification = NPCClassification.Rare,
-	isTameable = true,
-	questID = 54885,
-	vignetteID = 3520,
-}
-
-NPCs[147744] = { -- Amberclaw (Glrglrr's Mount)
-	classification = NPCClassification.Rare,
-	questID = 54286,
-	vignetteID = 3367,
 }
 
 -- ----------------------------------------------------------------------------
