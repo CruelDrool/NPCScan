@@ -519,9 +519,9 @@ Maps[MapID.UldumBfa].NPCs = {
 }
 
 -- ----------------------------------------------------------------------------
--- Vale Of Eternal Twilight, Uldum (BfA)
+-- Vision of the Twisting Sands, Uldum (BfA)
 -- ----------------------------------------------------------------------------
-Maps[MapID.ValeOfEternalTwilightUldum].NPCs = {
+Maps[MapID.VisionOfTheTwistingSands].NPCs = {
 	[161467] = true, -- Portalkeeper Jin'tashal
 	[161463] = true, -- Depthcaller Velshen
 	[161532] = true, -- Instructor Teshal

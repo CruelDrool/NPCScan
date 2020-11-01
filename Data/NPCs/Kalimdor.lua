@@ -1438,7 +1438,7 @@ NPCs[157469] = { -- Zoth'rum the Intellect Pillager
 -- }
 
 -- ----------------------------------------------------------------------------
--- Vale Of Eternal Twilight, Uldum (BfA)
+-- Vision of the Twisting Sands, Uldum (BfA)
 -- ----------------------------------------------------------------------------
 NPCs[161467] = { -- Portalkeeper Jin'tashal
 	-- questID = ,

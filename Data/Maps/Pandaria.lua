@@ -162,7 +162,7 @@ Maps[MapID.ValeOfEternalBlossomsBfa].NPCs = {
 -- ----------------------------------------------------------------------------
 -- Vale of Eternal Twilight, Vale of Eternal Blossoms (BfA)
 -- ----------------------------------------------------------------------------
-Maps[MapID.ValeOfEternalTwilightVoEB].NPCs = {
+Maps[MapID.ValeOfEternalTwilight].NPCs = {
 	[159103] = true, -- Manipulator Shrog'lth
 	[160841] = true, -- Blubbery Blobule
 	[160805] = true, -- Gloopy Globule
