@@ -3,6 +3,7 @@
 -- ----------------------------------------------------------------------------
 local AddOnFolderName, private = ...
 local NPCs = private.Data.NPCs
+local NPCClassification = private.Enum.NPCClassification
 
 -- ----------------------------------------------------------------------------
 -- Multiple zones
@@ -310,56 +311,67 @@ NPCs[63978] = { -- Kri'chon
 -- Vale of Eternal Blossoms (Legion/BfA)
 -- ----------------------------------------------------------------------------
 NPCs[154447] = { -- Brother Meller
+	classification = NPCClassification.Rare,
 	questID = 56237,
 	vignetteID = 3692,
 }
 
 NPCs[154467] = { -- Chief Mek-mek
+	classification = NPCClassification.Rare,
 	questID = 56255,
 	vignetteID = 3693,
 }
 
 NPCs[154559] = { -- Deeplord Zrihj
+	classification = NPCClassification.RareElite,
 	questID = 56323,
 	vignetteID = 3733,
 }
 
 NPCs[157267] = { -- Escaped Mutation
+	classification = NPCClassification.Rare,
 	questID = 57343,
 	vignetteID = 3811,
 }
 
 NPCs[157266] = { -- Kilxl the Gaping Maw
+	classification = NPCClassification.Rare,
 	questID = 57341,
 	vignetteID = 3810,
 }
 
 NPCs[154106] = { -- Quid
+	classification = NPCClassification.Rare,
 	questID = 56094,
 	vignetteID = 3662,
 }
 
 NPCs[154490] = { -- Rijz'x the Devourer
+	classification = NPCClassification.Rare,
 	questID = 56302,
 	vignetteID = 3698,
 }
 
 NPCs[157468] = { -- Tisiphon
+	classification = NPCClassification.Rare,
 	questID = 57364,
 	vignetteID = 3820,
 }
 
 NPCs[154394] = { -- Veskan the Fallen
+	classification = NPCClassification.Rare,
 	questID = 56213,
 	vignetteID = 3691,
 }
 
 NPCs[154332] = { -- Voidtender Malketh
+	classification = NPCClassification.RareElite,
 	questID = 56183,
 	vignetteID = 3688,
 }
 
 NPCs[154495] = { -- Will of N'Zoth
+	classification = NPCClassification.RareElite,
 	questID = 56303,
 	vignetteID = 3703,
 	toys = {
@@ -370,11 +382,13 @@ NPCs[154495] = { -- Will of N'Zoth
 }
 
 NPCs[154087] = { -- Zror'um the Infinite
+	classification = NPCClassification.RareElite,
 	questID = 56084,
 	vignetteID = 3655,
 }
 
 NPCs[155958] = { -- Tashara
+	classification = NPCClassification.RareElite,
 	questID = 58507,
 	vignetteID = 4111,
 	toys = {
@@ -385,6 +399,7 @@ NPCs[155958] = { -- Tashara
 }
 
 NPCs[157160] = { -- Houndlord Ren
+	classification = NPCClassification.Rare,
 	questID = 57345,
 	vignetteID = 3797,
 	mounts = {
@@ -396,6 +411,8 @@ NPCs[157160] = { -- Houndlord Ren
 }
 
 NPCs[157466] = { -- Anh-De the Loyal
+	classification = NPCClassification.Rare,
+	isTameable = true,
 	questID = 57363,
 	vignetteID = 3819,
 	mounts = {
@@ -407,6 +424,7 @@ NPCs[157466] = { -- Anh-De the Loyal
 }
 
 NPCs[157153] = { -- Ha-Li
+	classification = NPCClassification.RareElite,
 	questID = 57344,
 	vignetteID = 3795,
 	mounts = {
@@ -418,6 +436,7 @@ NPCs[157153] = { -- Ha-Li
 }
 
 NPCs[157176] = { -- The Forgotten
+	classification = NPCClassification.Rare,
 	questID = 57342,
 	vignetteID = 3807,
 	pets = {
@@ -429,132 +448,160 @@ NPCs[157176] = { -- The Forgotten
 }
 
 NPCs[160968] = { -- Jade Colossus
+	classification = NPCClassification.RareElite,
 	questID = 58295,
 	vignetteID = 3988,
 }
 
 NPCs[157162] = { -- Rei Lun
+	classification = NPCClassification.RareElite,
+	isTameable = true,
 	questID = 57346,
 	vignetteID = 3798,
 }
 
 NPCs[157290] = { -- Jade Watcher
+	classification = NPCClassification.RareElite,
 	isTameable = true,
 	questID = 57350,
 	vignetteID = 3814,
 }
 
 NPCs[157291] = { -- Spymaster Hul'ach
+	classification = NPCClassification.Rare,
 	questID = 57351,
 	vignetteID = 3815,
 }
 
 NPCs[157171] = { -- Heixi the Stonelord
+	classification = NPCClassification.Rare,
 	questID = 57347,
 	vignetteID = 3805,
 }
 
 NPCs[157443] = { -- Xiln the Mountain
+	classification = NPCClassification.Rare,
 	questID = 57358,
 	vignetteID = 3817,
 }
 
 NPCs[156083] = { -- Sanguifang
+	isTameable = true,
+	classification = NPCClassification.Rare,
 	questID = 56954,
 	-- vignetteID = ,
 }
 
 NPCs[157287] = { -- Dokani Obliterator
+	classification = NPCClassification.RareElite,
 	questID = 57349,
 	vignetteID = 3813,
 }
 
 NPCs[154600] = { -- Teng the Awakened
+	classification = NPCClassification.Rare,
 	questID = 56332,
 	vignetteID = 3734,
 }
 
 NPCs[157279] = { -- Stormhowl
+	classification = NPCClassification.RareElite,
 	isTameable = true,
 	questID = 57348,
 	vignetteID = 3812,
 }
 
 NPCs[157183] = { -- Coagulated Anima
+	classification = NPCClassification.Rare,
 	questID = 58296,
 	vignetteID = 3808,
 }
 
 NPCs[154638] = { -- Grand Empress Shek'zara
+	classification = NPCClassification.Elite,
 	questID = 58705,
 }
 
 NPCs[160920] = { -- Kal'tik the Blight
+	classification = NPCClassification.RareElite,
 	questID = 58310,
 	vignetteID = 4000,
 }
 
 NPCs[160922] = { -- Needler Zhesalla
+	classification = NPCClassification.Rare,
 	questID = 58311,
 	vignetteID = 4001,
 }
 
 NPCs[160876] = { -- Enraged Amber Elemental
+	classification = NPCClassification.Rare,
 	questID = 58306,
 	vignetteID = 3996,
 }
 
 NPCs[160874] = { -- Drone Keeper Ak'thet
+	classification = NPCClassification.Rare,
 	questID = 58305,
 	vignetteID = 3995,
 }
 
 NPCs[160867] = { -- Kzit'kovok
+	classification = NPCClassification.RareElite,
 	questID = 58302,
 	vignetteID = 3992,
 }
 
 NPCs[160868] = { -- Harrier Nir'verash
+	classification = NPCClassification.Rare,
 	questID = 58303,
 	vignetteID = 3993,
 }
 
 NPCs[160810] = { -- Harbinger Il'koxik
+	classification = NPCClassification.Rare,
 	questID = 58299,
 	vignetteID = 3989,
 }
 
 NPCs[160893] = { -- Captain Vor'lek
+	classification = NPCClassification.RareElite,
 	questID = 58308,
 	vignetteID = 3998,
 }
 
 NPCs[160826] = { -- Hive-Guard Naz'ruzek
+	classification = NPCClassification.Rare,
 	questID = 58301,
 	vignetteID = 3991,
 }
 
 NPCs[160872] = { -- Destroyer Krox'tazar
+	classification = NPCClassification.RareElite,
 	questID = 58304,
 	vignetteID = 3994,
 }
 
 NPCs[160825] = { -- Amber-Shaper Esh'ri
+	classification = NPCClassification.Rare,
 	questID = 58300,
 	vignetteID = 3990,
 }
 
 NPCs[160930] = { -- Infused Amber Ooze
+	classification = NPCClassification.Rare,
 	questID = 58312,
 	vignetteID = 4002,
 }
 
 NPCs[160878] = { -- Buh'gzaki the Blasphemous
+	classification = NPCClassification.RareElite,
 	questID = 58307,
 	vignetteID = 3997,
 }
 
 NPCs[160906] = { -- Skiver
+	classification = NPCClassification.RareElite,
 	questID = 58309,
 	-- vignetteID = ,
 }
