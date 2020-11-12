@@ -48,7 +48,27 @@ Maps[MapID.HowlingFjord].NPCs = {
 Maps[MapID.Icecrown].NPCs = {
     [32487] = true, -- Putridus the Ancient
     [32495] = true, -- Hildana Deathstealer
-    [32501] = true -- High Thane Jorfus
+    [32501] = true, -- High Thane Jorfus
+	[174048] = true, -- Elder Nadox
+	[174049] = true, -- Prince Taldaram
+	[174050] = true, -- Krik'thir the Gatewatcher
+	[174051] = true, -- Trollgore
+	[174052] = true, -- Novos the Summoner
+	[174053] = true, -- The Prophet Tharon'ja
+	[174054] = true, -- Falric
+	[174055] = true, -- Marwyn
+	[174056] = true, -- Forgemaster Garfrost
+	[174057] = true, -- Scourgelord Tyrannus
+	[174058] = true, -- Bronjahm
+	[174059] = true, -- The Black Knight
+	[174060] = true, -- Prince Keleseth
+	[174061] = true, -- Ingvar the Plunderer
+	[174062] = true, -- Skadi the Ruthless
+	[174063] = true, -- Lady Deathwhisper
+	[174064] = true, -- Professor Putricide
+	[174065] = true, -- Blood Queen Lana'thel
+	[174066] = true, -- Patchwerk
+	[174067] = true, -- Noth the Plaguebringer
 }
 
 -- ----------------------------------------------------------------------------
