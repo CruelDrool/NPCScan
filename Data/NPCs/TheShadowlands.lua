@@ -534,6 +534,13 @@ NPCs[162586] = { -- Tahonta
 	isTameable = true,
 	-- questID = ,
 	-- vignetteID = ,
+	mounts = {
+		{
+			itemID = 182075, -- Bonehoof Tauralus
+			spellID = 332457, -- Bonehoof Tauralus
+			covenant = "Necrolord",
+		},
+	},
 }
 
 NPCs[162588] = { -- Gristlebeak
