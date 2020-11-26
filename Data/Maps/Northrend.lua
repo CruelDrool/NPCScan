@@ -49,6 +49,7 @@ Maps[MapID.Icecrown].NPCs = {
     [32487] = true, -- Putridus the Ancient
     [32495] = true, -- Hildana Deathstealer
     [32501] = true, -- High Thane Jorfus
+--[[
 	[174048] = true, -- Elder Nadox
 	[174049] = true, -- Prince Taldaram
 	[174050] = true, -- Krik'thir the Gatewatcher
@@ -69,6 +70,7 @@ Maps[MapID.Icecrown].NPCs = {
 	[174065] = true, -- Blood Queen Lana'thel
 	[174066] = true, -- Patchwerk
 	[174067] = true, -- Noth the Plaguebringer
+]]--
 }
 
 -- ----------------------------------------------------------------------------

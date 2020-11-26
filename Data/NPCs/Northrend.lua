@@ -72,7 +72,7 @@ NPCs[32501] = { -- High Thane Jorfus
 	-- questID = ,
 	-- vignetteID = ,
 }
-
+--[[
 NPCs[174048] = { -- Elder Nadox
 	classification = NPCClassification.RareElite,
 	-- questID = 62326,
@@ -198,4 +198,4 @@ NPCs[174067] = { -- Noth the Plaguebringer
 	-- questID = 62345,
 	vignetteID = 4549,
 }
-
+]]--
