@@ -28,6 +28,7 @@ local AchievementID = {
 	AdventurerOfVoldun = 12943,
 	AdventurerOfZuldazar = 12944,
 	AncientNoMore = 9678,
+	BetterToBeLuckyThanDead = 14744,
 	BloodyRare = 1312,
 	BrokeBackPrecipice = 9571,
 	ChampionsOfLeiShen = 8103,

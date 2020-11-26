@@ -129,8 +129,8 @@ NPCs[167726] = { -- Rootwrithe
 NPCs[167851] = { -- Egg-Tender Leh'go
 	classification = NPCClassification.Rare,
 	isTameable = true,
-	-- questID = ,
-	-- vignetteID = ,
+	questID = 60266,
+	vignetteID = 4191,
 }
 
 NPCs[168135] = { -- Night Mare
@@ -166,8 +166,8 @@ NPCs[171451] = { -- Soultwister Cero
 
 NPCs[171688] = { -- Faeflayer
 	classification = NPCClassification.Rare,
-	-- questID = ,
-	-- vignetteID = ,
+	questID = 61184,
+	vignetteID = 4400,
 }
 
 -- ----------------------------------------------------------------------------
@@ -188,7 +188,7 @@ NPCs[156340] = { -- Larionrider Orstus
 NPCs[158659] = { -- Herculon
 	classification = NPCClassification.Rare,
 	achievementQuestID = 57705,
-	-- vignetteID = ,
+	vignetteID = 3895,
 }
 
 NPCs[160629] = { -- Baedos
@@ -234,14 +234,14 @@ NPCs[161529] = { -- Nemaeus
 	classification = NPCClassification.Rare,
 	isTameable = true,
 	achievementQuestID = 60569,
-	-- vignetteID = ,
+	vignetteID = 4037,
 }
 
 NPCs[161530] = { -- Cloudtail
 	classification = NPCClassification.Rare,
 	isTameable = true,
 	achievementQuestID = 60571,
-	-- vignetteID = ,
+	vignetteID = 4038,
 }
 
 NPCs[163460] = { -- Dionae
@@ -256,17 +256,16 @@ NPCs[167078] = { -- Wingflayer the Cruel
 	-- vignetteID = ,
 }
 
-NPCs[170439] = { -- Sundancer
+NPCs[170439] = { -- Sundancer (the flying version, I guess)
 	classification = NPCClassification.RareElite,
-	isTameable = true,
 	achievementQuestID = 60862,
 	-- vignetteID = ,
-	mounts = {
-		{
-			itemID = 180773, -- Sundancer
-			spellID = 312765, -- Sundancer
-		},
-	},
+	-- mounts = {
+		-- {
+			-- itemID = 180773, -- Sundancer
+			-- spellID = 312765, -- Sundancer
+		-- },
+	-- },
 }
 
 NPCs[170548] = { -- Sundancer
@@ -351,7 +350,7 @@ NPCs[171009] = { -- Enforcer Aegeon
 NPCs[171010] = { -- Corrupted Clawguard
 	classification = NPCClassification.Rare,
 	achievementQuestID = 60999,
-	-- vignetteID = ,
+	vignetteID = 4340,
 }
 
 NPCs[171011] = { -- Demi the Relic Hoarder
@@ -397,6 +396,12 @@ NPCs[171211] = { -- Aspirant Eolis
 	-- factionGroup = "Horde",
 }
 
+NPCs[171255] = { -- Echo of Aella
+	classification = NPCClassification.Rare,
+	achievementQuestID = 61082,
+	-- vignetteID = ,
+}
+
 NPCs[171300] = { -- Malfunctioning Clawguard
 	classification = NPCClassification.Rare,
 	achievementQuestID = 60999,
@@ -416,7 +421,7 @@ NPCs[171327] = { -- Reekmonger
 NPCs[157058] = { -- Corspecutter Moroc
 	classification = NPCClassification.RareElite,
 	-- questID = ,
-	-- vignetteID = ,
+	vignetteID = 4012,
 }
 
 NPCs[157125] = { -- Zargox the Reborn
@@ -464,7 +469,7 @@ NPCs[157312] = { -- Oily Invertebrate
 NPCs[158406] = { -- Scunner
 	classification = NPCClassification.RareElite,
 	-- questID = ,
-	-- vignetteID = ,
+	vignetteID = 3941,
 }
 
 NPCs[159105] = { -- Collector Kash
@@ -583,7 +588,7 @@ NPCs[162711] = { -- Deadly Dapperling
 NPCs[162727] = { -- Bubbleblood
 	classification = NPCClassification.RareElite,
 	-- questID = ,
-	-- vignetteID = ,
+	vignetteID = 4070,
 }
 
 NPCs[162741] = { -- Gieger
@@ -657,8 +662,8 @@ NPCs[155779] = { -- Tomb Burster
 	-- vignetteID = ,
 	pets = {
 		{
-			itemID = 180584, -- Blushing Spiderling /Rose Spiderling
-			npcID = 171117, -- Blushing Spiderling / Rose Spiderling
+			itemID = 180584, -- Blushing Spiderling
+			npcID = 171117, -- Blushing Spiderling
 		},
 	},
 }
@@ -726,7 +731,7 @@ NPCs[159503] = { -- Stonefist
 NPCs[160385] = { -- Soulstalker Doina
 	classification = NPCClassification.Rare,
 	-- questID = ,
-	-- vignetteID = ,
+	vignetteID = 3950,
 }
 
 NPCs[160392] = { -- Soulstalker Doina
@@ -806,12 +811,8 @@ NPCs[165152] = { -- Leeched Soul
 	-- vignetteID = ,
 	pets = {
 		{
-			itemID = 180585, -- Bottled Up Rage / Bottled Up Emotions
-			npcID = 171118, -- Wrathling / Emotional Leecher
-		},
-		{
-			itemID = 180591, -- Vial of Roiling Emotions
-			npcID = 171124, -- Raw Emotion
+			itemID = 180585, -- Bottled Up Rage
+			npcID = 171118, -- Wrathling
 		},
 	},
 }
@@ -824,14 +825,16 @@ NPCs[165175] = { -- Prideful Hulk
 
 NPCs[165206] = { -- Endlurker
 	classification = NPCClassification.Rare,
-	-- questID = ,
-	-- vignetteID = ,
+	-- #1: 60581, 59582
+	questID = 59582,
+	vignetteID = 4134,
 }
 
 NPCs[165253] = { -- Tollkeeper Varaboss
 	classification = NPCClassification.Rare,
-	-- questID = ,
-	-- vignetteID = ,
+	-- #1: 60583, 59595
+	questID = 59595,
+	vignetteID = 4136,
 }
 
 NPCs[165290] = { -- Harika the Horrid
@@ -898,7 +901,7 @@ NPCs[166679] = { -- Hopecrusher
 	classification = NPCClassification.RareElite,
 	isTameable = true,
 	-- questID = ,
-	-- vignetteID = ,
+	vignetteID = 4167,
 	mounts = {
 		{
 			itemID = 180581, -- Hopecrusher's Harness
@@ -916,8 +919,8 @@ NPCs[166710] = { -- Executioner Aatron
 
 NPCs[166993] = { -- Huntmaster Petrus
 	classification = NPCClassification.Rare,
-	-- questID = ,
-	-- vignetteID = ,
+	questID = 60022,
+	vignetteID = 4170,
 }
 
 NPCs[167464] = { -- Grand Arcanist Dimitri
@@ -932,12 +935,8 @@ NPCs[170048] = { -- Manifestation of Wrath
 	-- vignetteID = ,
 	pets = {
 		{
-			itemID = 180585, -- Bottled Up Rage / Bottled Up Emotions
-			npcID = 171118, -- Wrathling / Emotional Leecher
-		},
-		{
-			itemID = 180591, -- Vial of Roiling Emotions
-			npcID = 171124, -- Raw Emotion
+			itemID = 180585, -- Bottled Up Rage
+			npcID = 171118, -- Wrathling
 		},
 	},
 }
@@ -963,13 +962,8 @@ NPCs[172180] = { -- Blustery Boil
 -- ----------------------------------------------------------------------------
 -- The Maw
 -- ----------------------------------------------------------------------------
-NPCs[154330] = { -- Eternas the Tormentor
-	classification = NPCClassification.Rare,
-	-- questID = ,
-	-- vignetteID = ,
-}
 
-NPCs[156203] = { -- Stygian Incinerator
+NPCs[154330] = { -- Eternas the Tormentor
 	classification = NPCClassification.Rare,
 	-- questID = ,
 	-- vignetteID = ,
@@ -977,6 +971,12 @@ NPCs[156203] = { -- Stygian Incinerator
 
 NPCs[157833] = { -- Borr-Geth
 	classification = NPCClassification.RareElite,
+	-- questID = ,
+	-- vignetteID = ,
+}
+
+NPCs[157964] = { -- Adjutant Dekaris
+	classification = NPCClassification.Rare,
 	-- questID = ,
 	-- vignetteID = ,
 }
@@ -993,32 +993,8 @@ NPCs[158278] = { -- Nascent Devourer
 	-- vignetteID = ,
 }
 
-NPCs[158314] = { -- Drifting Sorrow
-	classification = NPCClassification.Rare,
-	-- questID = ,
-	-- vignetteID = ,
-}
-
-NPCs[162452] = { -- Dartanos
-	classification = NPCClassification.Rare,
-	-- questID = ,
-	-- vignetteID = ,
-}
-
-NPCs[162829] = { -- Razkazzar
-	classification = NPCClassification.Rare,
-	-- questID = ,
-	-- vignetteID = ,
-}
-
-NPCs[162844] = { -- Dath Rezara
-	classification = NPCClassification.Rare,
-	-- questID = ,
-	-- vignetteID = ,
-}
-
-NPCs[162845] = { -- Orrholyn
-	classification = NPCClassification.Rare,
+NPCs[160770] = { -- Darithis the Bleak
+	classification = NPCClassification.RareElite,
 	-- questID = ,
 	-- vignetteID = ,
 }
@@ -1029,13 +1005,7 @@ NPCs[162849] = { -- Morguliax
 	-- vignetteID = ,
 }
 
-NPCs[162965] = { -- Huwerath
-	classification = NPCClassification.Rare,
-	-- questID = ,
-	-- vignetteID = ,
-}
-
-NPCs[165047] = { -- Soulsmith Yol-Mattar
+NPCs[164064] = { -- Obolos
 	classification = NPCClassification.Rare,
 	-- questID = ,
 	-- vignetteID = ,
@@ -1047,14 +1017,8 @@ NPCs[166398] = { -- Soulforger Rhovus
 	-- vignetteID = ,
 }
 
-NPCs[168693] = { -- Cyrixia
-	classification = NPCClassification.Rare,
-	-- questID = ,
-	-- vignetteID = ,
-}
-
-NPCs[169102] = { -- Agonix
-	classification = NPCClassification.Rare,
+NPCs[169827] = { -- Ekphoras, Herald of Grief
+	classification = NPCClassification.RareElite,
 	-- questID = ,
 	-- vignetteID = ,
 }
@@ -1071,7 +1035,25 @@ NPCs[170302] = { -- Talaporas, Herald of Pain
 	-- vignetteID = ,
 }
 
+NPCs[170303] = { -- Exos, Herald of Domination
+	classification = NPCClassification.RareElite,
+	-- questID = ,
+	-- vignetteID = ,
+}
+
 NPCs[170634] = { -- Shadeweaver Zeris
+	classification = NPCClassification.RareElite,
+	-- questID = ,
+	-- vignetteID = ,
+}
+
+NPCs[170711] = { -- Dolos
+	classification = NPCClassification.RareElite,
+	-- questID = ,
+	-- vignetteID = ,
+}
+
+NPCs[170731] = { -- Thanassos
 	classification = NPCClassification.RareElite,
 	-- questID = ,
 	-- vignetteID = ,
@@ -1079,12 +1061,6 @@ NPCs[170634] = { -- Shadeweaver Zeris
 
 NPCs[170774] = { -- Eketra
 	classification = NPCClassification.RareElite,
-	-- questID = ,
-	-- vignetteID = ,
-}
-
-NPCs[171316] = { -- Malevolent Stygia
-	classification = NPCClassification.Rare,
 	-- questID = ,
 	-- vignetteID = ,
 }
@@ -1097,13 +1073,6 @@ NPCs[171317] = { -- Conjured Death
 
 NPCs[171783] = { -- Malevolent Death
 	classification = NPCClassification.Rare,
-	-- questID = ,
-	-- vignetteID = ,
-}
-
-NPCs[172524] = { -- Skittering Broodmother
-	classification = NPCClassification.Rare,
-	isTameable = true,
 	-- questID = ,
 	-- vignetteID = ,
 }
@@ -1125,8 +1094,8 @@ NPCs[172862] = { -- Yero the Skittish
 	-- vignetteID = ,
 }
 
-NPCs[173086] = { -- Valis the Cruel
-	classification = NPCClassification.Rare,
+NPCs[175012] = { -- Ikras the Devourer
+	classification = NPCClassification.RareElite,
 	-- questID = ,
-	-- vignetteID = ,
+	vignetteID = 4580,
 }
