@@ -485,6 +485,18 @@ NPCs[157309] = { -- Violet Mistake
 	},
 }
 
+NPCs[157310] = { -- Boneslurp
+	classification = NPCClassification.Rare,
+	questID = 61722,
+	vignetteID = 4494,
+}
+
+NPCs[157311] = { -- Burnblister
+	classification = NPCClassification.Rare,
+	questID = 61723,
+	vignetteID = 4495,
+}
+
 NPCs[157312] = { -- Oily Invertebrate
 	classification = NPCClassification.Rare,
 	questID = 61724,
