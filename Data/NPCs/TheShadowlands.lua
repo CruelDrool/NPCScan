@@ -107,10 +107,22 @@ NPCs[165053] = { -- Mymaen
 	vignetteID = 4131,
 }
 
+NPCs[166135] = { -- Astra, As Azshara
+	classification = NPCClassification.Rare,
+	questID = 61201,
+	vignetteID = 4401,
+}
+
 NPCs[166138] = { -- Mi'kai, As Argus, the Unmaker
 	classification = NPCClassification.Rare,
 	questID = 61202,
 	vignetteID = 4402,
+}
+
+NPCs[166139] = { -- Glimmerdust, As Kil'jaeden
+	classification = NPCClassification.Rare,
+	questID = 61203,
+	vignetteID = 4403,
 }
 
 NPCs[166140] = { -- Senthii, As Gul'dan
@@ -119,10 +131,22 @@ NPCs[166140] = { -- Senthii, As Gul'dan
 	vignetteID = 4404,
 }
 
+NPCs[166142] = { -- Glimmerdust, As Jaina
+	classification = NPCClassification.Rare,
+	questID = 61205,
+	vignetteID = 4405,
+}
+
 NPCs[166145] = { -- Dreamweaver, As N'Zoth
 	classification = NPCClassification.Rare,
 	questID = 61206,
 	vignetteID = 4406,
+}
+
+NPCs[166146] = { -- Niya, As Xavius
+	classification = NPCClassification.Rare,
+	questID = 61207,
+	vignetteID = 4407,
 }
 
 NPCs[167721] = { -- The Slumbering Emperor

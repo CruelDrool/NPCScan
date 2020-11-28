@@ -28,6 +28,7 @@ local AchievementID = {
 	AdventurerOfVoldun = 12943,
 	AdventurerOfZuldazar = 12944,
 	AncientNoMore = 9678,
+	ArdenwealdsAStage = 14353,
 	BetterToBeLuckyThanDead = 14744,
 	BloodyRare = 1312,
 	BrokeBackPrecipice = 9571,
