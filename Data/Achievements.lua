@@ -30,6 +30,7 @@ local AchievementID = {
 	AncientNoMore = 9678,
 	ArdenwealdsAStage = 14353,
 	BetterToBeLuckyThanDead = 14744,
+	Bloodsport = 14802,
 	BloodyRare = 1312,
 	BrokeBackPrecipice = 9571,
 	ChampionsOfLeiShen = 8103,

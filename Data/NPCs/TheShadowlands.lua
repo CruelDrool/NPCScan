@@ -423,7 +423,6 @@ NPCs[171189] = { -- Bookkeeper Mnemis
 
 NPCs[171211] = { -- Aspirant Eolis
 	classification = NPCClassification.Rare,
-	-- factionGroup = "Horde",
 	achievementQuestID = 61083,
 	vignetteID = 4359,
 }
@@ -669,6 +668,42 @@ NPCs[162819] = { -- Warbringer Mal'Korak
 			spellID = 332478, -- Blisterback Bloodtusk
 		},
 	},
+}
+
+NPCs[162853] = { -- Unbreakable Urtz
+	classification = NPCClassification.Elite,
+	-- questID = ,
+	-- vignetteID = ,
+}
+
+NPCs[162872] = { -- Xantuth the Blighted
+	classification = NPCClassification.Elite,
+	-- questID = ,
+	-- vignetteID = ,
+}
+
+NPCs[162873] = { -- Azmogal
+	classification = NPCClassification.Elite,
+	-- questID = ,
+	-- vignetteID = ,
+}
+
+NPCs[162874] = { -- Ti'or
+	classification = NPCClassification.Elite,
+	-- questID = ,
+	-- vignetteID = ,
+}
+
+NPCs[162875] = { -- Devmorta
+	classification = NPCClassification.Elite,
+	-- questID = ,
+	-- vignetteID = ,
+}
+
+NPCs[162880] = { -- Mistress Dyrax
+	classification = NPCClassification.Elite,
+	-- questID = ,
+	-- vignetteID = ,
 }
 
 NPCs[168147] = { -- Sabriel the Bonecleaver
