@@ -1007,7 +1007,7 @@ NPCs[170434] = { -- Amalgamation of Sin
 }
 
 NPCs[171705] = { -- Court Crusher
-	classification = NPCClassification.RareElite,
+	classification = NPCClassification.Rare,
 	-- questID = ,
 	vignetteID = 4429,
 }
@@ -1122,7 +1122,7 @@ NPCs[165047] = { -- Soulsmith Yol-Mattar
 }
 
 NPCs[165973] = { -- Warren Mongrel
-	classification = NPCClassification.Elite,
+	classification = NPCClassification.Normal,
 	questID = 61124,
 	vignetteID = 4378,
 	isTameable = true,
