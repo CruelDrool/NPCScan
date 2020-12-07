@@ -28,15 +28,27 @@ NPCs[163229] = { -- Dustbrawl
 
 NPCs[163370] = { -- Gormbore
 	classification = NPCClassification.Rare,
-	isTameable = true,
 	questID = 59006,
 	vignetteID = 4100,
+	isTameable = true,
+	pets = {
+		{
+			itemID = 183196, -- Lavender Nibbler
+			npcID = 173993, -- Lavender Nibbler
+		},
+	},
 }
 
 NPCs[164093] = { -- Macabre
 	classification = NPCClassification.Rare,
 	questID = 59140,
 	vignetteID = 4113, -- Mysterious Mushroom Ring
+	pets = {
+		{
+			itemID = 180644, -- Rocky
+			npcID = 171246, -- Rocky
+		},
+	},
 }
 
 NPCs[164107] = { -- Gormtamer Tizo
@@ -71,16 +83,28 @@ NPCs[164147] = { -- Wrigglemortis
 
 NPCs[164238] = { -- Deifir the Untamed
 	classification = NPCClassification.Rare,
-	isTameable = true,
 	questID = 59201,
 	vignetteID = 4116,
+	isTameable = true,
+	pets = {
+		{
+			itemID = 180631, -- Gorm Needler
+			npcID = 171231, -- Gorm Needler
+		},
+	},
 }
 
 NPCs[164391] = { -- Old Ardeite
 	classification = NPCClassification.Rare,
-	isTameable = true,
 	questID = 59208,
 	vignetteID = 4117,
+	isTameable = true,
+	pets = {
+		{
+			itemID = 180643, -- Chirpy Valeshrieker
+			npcID = 171239, -- Chirpy Valeshrieker
+		},
+	},
 }
 
 NPCs[164415] = { -- Skuld Vit
@@ -151,9 +175,9 @@ NPCs[166146] = { -- Niya, As Xavius
 
 NPCs[167721] = { -- The Slumbering Emperor
 	classification = NPCClassification.Rare,
-	isTameable = true,
 	questID = 60290,
 	vignetteID = 4193, -- Strange Cloud
+	isTameable = true,
 }
 
 NPCs[167724] = { -- Rotbriar Boggart
@@ -170,16 +194,16 @@ NPCs[167726] = { -- Rootwrithe
 
 NPCs[167851] = { -- Egg-Tender Leh'go
 	classification = NPCClassification.Rare,
-	isTameable = true,
 	questID = 60266,
 	vignetteID = 4191, -- Unguarded Gorm Eggs
+	isTameable = true,
 }
 
 NPCs[168135] = { -- Night Mare
 	classification = NPCClassification.RareElite,
-	isTameable = true,
 	questID = 60306,
 	vignetteID = 4195,
+	isTameable = true,
 	mounts = {
 		{
 			itemID = 180728, -- Swift Gloomhoof
@@ -225,6 +249,12 @@ NPCs[156340] = { -- Larionrider Orstus
 	classification = NPCClassification.RareElite,
 	achievementQuestID = 61634,
 	vignetteID = 4476, -- Orstus and Sotiros
+	pets = {
+		{
+			itemID = 184401, -- Larion Pouncer
+			npcID = 175562, -- Larion Pouncer
+		},
+	},
 }
 
 NPCs[158659] = { -- Herculon
@@ -235,9 +265,9 @@ NPCs[158659] = { -- Herculon
 
 NPCs[160629] = { -- Baedos
 	classification = NPCClassification.Rare,
-	isTameable = true,
 	achievementQuestID = 58648,
 	vignetteID = 4047, -- Baedos' Feeding Frenzy
+	isTameable = true,
 }
 
 NPCs[160721] = { -- Fallen Acolyte Erisne
@@ -262,30 +292,30 @@ NPCs[160985] = { -- Selena the Reborn
 
 NPCs[161527] = { -- Sigilback
 	classification = NPCClassification.Rare,
-	isTameable = true,
 	achievementQuestID = 60570,
 	vignetteID = 4035, -- Beasts of Bastion: Sigilback
+	isTameable = true,
 }
 
 NPCs[161528] = { -- Aethon
 	classification = NPCClassification.Rare,
-	isTameable = true,
 	achievementQuestID = 58526,
 	vignetteID = 4036, -- Beasts of Bastion: Aethon
+	isTameable = true,
 }
 
 NPCs[161529] = { -- Nemaeus
 	classification = NPCClassification.Rare,
-	isTameable = true,
 	achievementQuestID = 60569,
 	vignetteID = 4037, -- Beasts of Bastion: Nemaeus
+	isTameable = true,
 }
 
 NPCs[161530] = { -- Cloudtail
 	classification = NPCClassification.Rare,
-	isTameable = true,
 	achievementQuestID = 60571,
 	vignetteID = 4038, -- Beasts of Bastion: Cloudtail
+	isTameable = true,
 }
 
 NPCs[163460] = { -- Dionae
@@ -302,9 +332,9 @@ NPCs[167078] = { -- Wingflayer the Cruel
 
 NPCs[170548] = { -- Sundancer
 	classification = NPCClassification.RareElite,
-	isTameable = true,
 	achievementQuestID = 60862,
 	vignetteID = 4248,
+	isTameable = true,
 	mounts = {
 		{
 			itemID = 180773, -- Sundancer
@@ -362,9 +392,15 @@ NPCs[170836] = { -- Champion of Humility
 
 NPCs[170932] = { -- Cloudfeather Guardian
 	classification = NPCClassification.Rare,
-	isTameable = true,
 	achievementQuestID = 60978,
 	vignetteID = 4322,
+	isTameable = true,
+	pets = {
+		{
+			itemID = 180812, -- Golden Cloudfeather
+			npcID = 171565, -- Golden Cloudfeather
+		},
+	},
 }
 
 NPCs[171008] = { -- Unstable Memory
@@ -512,6 +548,12 @@ NPCs[158406] = { -- Scunner
 	classification = NPCClassification.RareElite,
 	questID = 58006,
 	vignetteID = 3941,
+	pets = {
+		{
+			itemID = 181267, -- Invertebrate Oil
+			npcID = 172139, -- Writhing Spine
+		},
+	},
 }
 
 NPCs[159105] = { -- Collector Kash
@@ -522,9 +564,9 @@ NPCs[159105] = { -- Collector Kash
 
 NPCs[159753] = { -- Ravenomous
 	classification = NPCClassification.Rare,
-	isTameable = true,
 	questID = 58004,
 	vignetteID = 3939,
+	isTameable = true,
 	pets = {
 		{
 			itemID = 181283, -- Foulwing Buzzer
@@ -535,9 +577,9 @@ NPCs[159753] = { -- Ravenomous
 
 NPCs[159886] = { -- Sister Chelicerae
 	classification = NPCClassification.RareElite,
-	isTameable = true,
 	questID = 58003,
 	vignetteID = 3938,
+	isTameable = true,
 	pets = {
 		{
 			itemID = 181172, -- Boneweave Hatchling
@@ -574,13 +616,23 @@ NPCs[162528] = { -- Smorgas the Feaster
 	classification = NPCClassification.Rare,
 	questID = 58768,
 	vignetteID = 4062,
+	pets = {
+		{
+			itemID = 181265, -- Corpselouse Larva
+			npcID = 172136, -- Corpselouse Larva
+		},
+		{
+			itemID = 181266, -- Feasting Larva
+			npcID = 172137, -- Feasting Larva
+		},
+	},
 }
 
 NPCs[162586] = { -- Tahonta
 	classification = NPCClassification.Rare,
-	isTameable = true,
 	questID = 58783,
 	vignetteID = 4064,
+	isTameable = true,
 	mounts = {
 		{
 			itemID = 182075, -- Bonehoof Tauralus
@@ -592,9 +644,9 @@ NPCs[162586] = { -- Tahonta
 
 NPCs[162588] = { -- Gristlebeak
 	classification = NPCClassification.Rare,
-	isTameable = true,
 	questID = 58837,
 	vignetteID = 4067,
+	isTameable = true,
 }
 
 NPCs[162669] = { -- Devour'us
@@ -647,9 +699,9 @@ NPCs[162741] = { -- Gieger
 
 NPCs[162767] = { -- Pesticide
 	classification = NPCClassification.Rare,
-	isTameable = true,
 	questID = 58875,
 	vignetteID = 4072,
+	isTameable = true,
 }
 
 NPCs[162797] = { -- Deepscar
@@ -712,8 +764,9 @@ NPCs[168147] = { -- Sabriel the Bonecleaver
 	vignetteID = 4065,
 	mounts = {
 		{
-			itemID = 182083, -- Bonecleaver's Skullboar
-			spellID = 332482, -- Bonecleaver's Skullboar
+			itemID = 181815, -- Armored Bonehoof Tauralus
+			spellID = 332466, -- Armored Bonehoof Tauralus
+			covenant = "Necrolord",
 		},
 	},
 }
@@ -729,9 +782,9 @@ NPCs[174108] = { -- Necromantic Anomaly
 -- ----------------------------------------------------------------------------
 NPCs[155779] = { -- Tomb Burster
 	classification = NPCClassification.Rare,
-	isTameable = true,
 	questID = 56877,
 	vignetteID = 4203,
+	isTameable = true,
 	pets = {
 		{
 			itemID = 180584, -- Blushing Spiderling
@@ -958,9 +1011,9 @@ NPCs[166576] = { -- Azgar
 
 NPCs[166679] = { -- Hopecrusher
 	classification = NPCClassification.RareElite,
-	isTameable = true,
 	questID = 59900,
 	vignetteID = 4167,
+	isTameable = true,
 	mounts = {
 		{
 			itemID = 180581, -- Hopecrusher's Harness
@@ -1019,6 +1072,12 @@ NPCs[154330] = { -- Eternas the Tormentor
 	classification = NPCClassification.Rare,
 	questID = 57509,
 	vignetteID = 3835,
+	pets = {
+		{
+			itemID = 183407, -- Contained Essence of Dread
+			npcID = 174081, -- Dread
+		},
+	},
 }
 
 NPCs[156203] = { -- Stygian Incinerator
@@ -1234,6 +1293,12 @@ NPCs[172521] = { -- Sanngror the Torturer
 	classification = NPCClassification.Normal,
 	questID = 62210,
 	vignetteID = 4519,
+	pets = {
+		{
+			itemID = 183410, -- Sharpclaw
+			npcID = 174084, -- Sharpclaw
+		},
+	},
 }
 
 NPCs[172523] = { -- Houndmaster Vasanok
