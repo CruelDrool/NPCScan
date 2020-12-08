@@ -637,7 +637,7 @@ NPCs[162586] = { -- Tahonta
 		{
 			itemID = 182075, -- Bonehoof Tauralus
 			spellID = 332457, -- Bonehoof Tauralus
-			covenant = "Necrolord",
+			covenantID = 4, -- Necrolord
 		},
 	},
 }
@@ -766,7 +766,7 @@ NPCs[168147] = { -- Sabriel the Bonecleaver
 		{
 			itemID = 181815, -- Armored Bonehoof Tauralus
 			spellID = 332466, -- Armored Bonehoof Tauralus
-			covenant = "Necrolord",
+			covenantID = 4, -- Necrolord
 		},
 	},
 }
@@ -1018,7 +1018,7 @@ NPCs[166679] = { -- Hopecrusher
 		{
 			itemID = 180581, -- Hopecrusher's Harness
 			spellID = 312753, -- Harnessed Hopecrusher
-			covenant = "Venthyr",
+			covenantID = 2, -- Venthyr
 		},
 	},
 }
