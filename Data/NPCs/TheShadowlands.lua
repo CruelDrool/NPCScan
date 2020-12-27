@@ -413,6 +413,11 @@ NPCs[171009] = { -- Enforcer Aegeon
 	classification = NPCClassification.Rare,
 	achievementQuestID = 60998,
 	vignetteID = 4339,
+	toys = {
+		{ 
+			itemID = 184404, -- Ever-Abundant Hearth
+		},
+	},
 }
 
 NPCs[171010] = { -- Corrupted Clawguard
