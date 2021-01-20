@@ -876,6 +876,12 @@ NPCs[159157] = { -- Grand Inquisitor Aurica
 	vignetteID = 4661,
 }
 
+NPCs[159496] = { -- Forgemaster Madalav
+	classification = NPCClassification.RareElite,
+	questID = 61618,
+	vignetteID = 4472,
+}
+
 NPCs[159503] = { -- Stonefist
 	classification = NPCClassification.RareElite,
 	questID = 62220,
@@ -996,6 +1002,12 @@ NPCs[165686] = { -- Ashen Amalgamation
 	},
 }
 
+NPCs[165786] = { -- High Inquisitor Vetar
+	classification = NPCClassification.Rare,
+	-- questID = ,
+	vignetteID = 4258,
+}
+
 NPCs[166292] = { -- Bog Beast
 	classification = NPCClassification.Rare,
 	questID = 59823,
@@ -1086,6 +1098,42 @@ NPCs[171705] = { -- Court Crusher
 	classification = NPCClassification.Rare,
 	-- questID = ,
 	vignetteID = 4429,
+}
+
+NPCs[171731] = { -- Sineater
+	classification = NPCClassification.Rare,
+	-- questID = ,
+	vignetteID = 4394,
+}
+
+NPCs[171749] = { -- Sloppy
+	classification = NPCClassification.Rare,
+	-- questID = ,
+	vignetteID = 4393,
+}
+
+NPCs[172164] = { -- Ember Skyterror
+	classification = NPCClassification.Rare,
+	-- questID = ,
+	vignetteID = 4440,
+}
+
+NPCs[172180] = { -- Blustery Boil
+	classification = NPCClassification.Rare,
+	-- questID = ,
+	vignetteID = 4439,
+}
+
+NPCs[172182] = { -- Venthyr Provocateur
+	classification = NPCClassification.Rare,
+	-- questID = ,
+	vignetteID = 4438,
+}
+
+NPCs[172186] = { -- Knockerbock
+	classification = NPCClassification.Rare,
+	-- questID = ,
+	vignetteID = 4434,
 }
 
 -- ----------------------------------------------------------------------------

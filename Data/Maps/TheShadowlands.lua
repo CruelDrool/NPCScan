@@ -137,6 +137,7 @@ Maps[MapID.Revendreth].NPCs = {
 	[159155] = true, -- High Inquisitor Dacian
 	[159156] = true, -- Grand Inquisitor Nicu
 	[159157] = true, -- Grand Inquisitor Aurica
+	[159496] = true, -- Forgemaster Madalav
 	[159503] = true, -- Stonefist
 	[160392] = true, -- Soulstalker Doina
 	[160640] = true, -- Innervus
@@ -152,6 +153,7 @@ Maps[MapID.Revendreth].NPCs = {
 	[165253] = true, -- Tollkeeper Varaboss
 	[165290] = true, -- Harika the Horrid
 	[165686] = true, -- Ashen Amalgamation
+	[165786] = true, -- High Inquisitor Vetar
 	[166292] = true, -- Bog Beast
 	[166393] = true, -- Amalgamation of Filth
 	[166521] = true, -- Famu the Infinite
@@ -163,6 +165,12 @@ Maps[MapID.Revendreth].NPCs = {
 	[170048] = true, -- Manifestation of Wrath
 	[170434] = true, -- Amalgamation of Sin
 	[171705] = true, -- Court Crusher
+	[171731] = true, -- Sineater
+	[171749] = true, -- Sloppy
+	[172164] = true, -- Ember Skyterror
+	[172180] = true, -- Blustery Boil
+	[172182] = true, -- Venthyr Provocateur
+	[172186] = true, -- Knockerbock
 }
 
 -- ----------------------------------------------------------------------------
