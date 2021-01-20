@@ -436,6 +436,12 @@ NPCs[171013] = { -- Embodied Hunger
 	classification = NPCClassification.Rare,
 	achievementQuestID = 61001,
 	vignetteID = 4343,
+	pets = {
+		{
+			itemID = 180869, -- Devoured Wader
+			npcID = 171714, -- Devoured Wader
+		},
+	},
 }
 
 NPCs[171014] = { -- Collector Astorestes
@@ -448,12 +454,24 @@ NPCs[171040] = { -- Xixin the Ravening
 	classification = NPCClassification.Rare,
 	achievementQuestID = 61046,
 	vignetteID = 4349,
+	pets = {
+		{
+			itemID = 180869, -- Devoured Wader
+			npcID = 171714, -- Devoured Wader
+		},
+	},
 }
 
 NPCs[171041] = { -- Worldfeaster Chronn
 	classification = NPCClassification.RareElite,
 	achievementQuestID = 61047,
 	vignetteID = 4350,
+	pets = {
+		{
+			itemID = 180869, -- Devoured Wader
+			npcID = 171714, -- Devoured Wader
+		},
+	},
 }
 
 NPCs[171189] = { -- Bookkeeper Mnemis
