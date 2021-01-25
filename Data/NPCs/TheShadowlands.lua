@@ -706,6 +706,11 @@ NPCs[162727] = { -- Bubbleblood
 	classification = NPCClassification.RareElite,
 	questID = 58870,
 	vignetteID = 4070,
+	toys = {
+		{ 
+			itemID = 184476, -- Regenerating Slime Vial
+		},
+	},
 }
 
 NPCs[162741] = { -- Gieger
