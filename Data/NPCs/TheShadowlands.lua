@@ -1105,10 +1105,22 @@ NPCs[171705] = { -- Court Crusher
 	vignetteID = 4429,
 }
 
+NPCs[171708] = { -- Drezgruda
+	classification = NPCClassification.Rare,
+	-- questID = ,
+	vignetteID = 4392,
+}
+
 NPCs[171731] = { -- Sineater
 	classification = NPCClassification.Rare,
 	-- questID = ,
 	vignetteID = 4394,
+}
+
+NPCs[171741] = { -- Kedu
+	classification = NPCClassification.Rare,
+	-- questID = ,
+	vignetteID = 4395,
 }
 
 NPCs[171749] = { -- Sloppy
