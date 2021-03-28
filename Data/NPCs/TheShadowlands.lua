@@ -1099,6 +1099,12 @@ NPCs[170434] = { -- Amalgamation of Sin
 	vignetteID = 4247,
 }
 
+NPCs[171405] = { -- Tricky Trik
+	classification = NPCClassification.Rare,
+	-- questID = ,
+	-- vignetteID = ,
+}
+
 NPCs[171705] = { -- Court Crusher
 	classification = NPCClassification.Rare,
 	-- questID = ,

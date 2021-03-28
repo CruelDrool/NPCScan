@@ -164,6 +164,7 @@ Maps[MapID.Revendreth].NPCs = {
 	[167464] = true, -- Grand Arcanist Dimitri
 	[170048] = true, -- Manifestation of Wrath
 	[170434] = true, -- Amalgamation of Sin
+	[171405] = true, -- Tricky Trik
 	[171705] = true, -- Court Crusher
 	[171708] = true, -- Drezgruda
 	[171731] = true, -- Sineater
