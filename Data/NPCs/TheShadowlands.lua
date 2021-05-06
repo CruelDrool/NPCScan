@@ -220,6 +220,7 @@ NPCs[168647] = { -- Valfir the Unrelenting
 		{
 			itemID = 180730, -- Wild Glimmerfur Prowler
 			spellID = 334366, -- Wild Glimmerfur Prowler
+			covenantID = 3, -- Night Fae
 		},
 	},
 }
@@ -721,6 +722,7 @@ NPCs[162741] = { -- Gieger
 		{
 			itemID = 182080, -- Predatory Plagueroc
 			spellID = 336045, -- Predatory Plagueroc
+			covenantID = 4, -- Necrolord
 		},
 	},
 }
@@ -991,6 +993,7 @@ NPCs[165290] = { -- Harika the Horrid
 		{
 			itemID = 180461, -- Horrid Dredwing
 			spellID = 332882, -- Horrid Dredwing
+			covenantID = 2, -- Venthyr
 		},
 	},
 }
