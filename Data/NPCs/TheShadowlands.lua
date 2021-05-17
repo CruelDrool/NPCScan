@@ -173,6 +173,13 @@ NPCs[166146] = { -- Niya, As Xavius
 	vignetteID = 4407,
 }
 
+NPCs[167527] = { -- Oranomonos the Everbranching
+	classification = NPCClassification.Elite,
+	questID = -1,
+	vignetteID = -1,
+	worldQuestID = 61815, -- Oranomonos the Everbranching
+}
+
 NPCs[167721] = { -- The Slumbering Emperor
 	classification = NPCClassification.Rare,
 	questID = 60290,
@@ -329,6 +336,13 @@ NPCs[167078] = { -- Wingflayer the Cruel
 	classification = NPCClassification.Rare,
 	achievementQuestID = 60314,
 	vignetteID = 4198,
+}
+
+NPCs[167524] = { -- Valinor
+	classification = NPCClassification.Elite,
+	questID = -1,
+	vignetteID = -1,
+	worldQuestID = 61813, -- Valinor, the Light of Eons
 }
 
 NPCs[170548] = { -- Sundancer
@@ -502,7 +516,7 @@ NPCs[171327] = { -- Reekmonger
 -- ----------------------------------------------------------------------------
 -- Maldraxxus
 -- ----------------------------------------------------------------------------
-NPCs[157058] = { -- Corspecutter Moroc
+NPCs[157058] = { -- Corpsecutter Moroc
 	classification = NPCClassification.RareElite,
 	questID = 58335,
 	vignetteID = 4012,
@@ -786,6 +800,13 @@ NPCs[162880] = { -- Mistress Dyrax
 	classification = NPCClassification.Elite,
 	-- questID = ,
 	-- vignetteID = ,
+}
+
+NPCs[167525] = { -- Mortanis
+	classification = NPCClassification.Elite,
+	questID = -1,
+	vignetteID = -1,
+	worldQuestID = 61816, -- Mortanis
 }
 
 NPCs[168147] = { -- Sabriel the Bonecleaver
@@ -1082,6 +1103,13 @@ NPCs[167464] = { -- Grand Arcanist Dimitri
 	classification = NPCClassification.Rare,
 	questID = 60173,
 	vignetteID = 4172,
+}
+
+NPCs[167526] = { -- Nurgash Muckformed
+	classification = NPCClassification.Elite,
+	questID = -1,
+	vignetteID = -1,
+	worldQuestID = 61814, -- Nurgash Muckformed
 }
 
 NPCs[170048] = { -- Manifestation of Wrath
