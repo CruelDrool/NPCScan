@@ -83,6 +83,35 @@ Maps[MapID.Bastion].NPCs = {
 }
 
 -- ----------------------------------------------------------------------------
+-- Korthia
+-- ----------------------------------------------------------------------------
+Maps[MapID.Korthia].NPCs = {
+	[177336] = true, -- Zelnithop
+	[177903] = true, -- Dominated Protector
+	[178958] = true, -- Mor'geth
+	[179108] = true, -- Kroke the Tormented
+	[179472] = true, -- Konthrogz the Obliterator
+	[179565] = true, -- Relic Gorger
+	[179608] = true, -- Screaming Shade
+	[179684] = true, -- Malbog
+	[179760] = true, -- Towering Exterminator
+	[179802] = true, -- Yarxhov the Pillager
+	[179823] = true, -- Relic Gatherer
+	[179859] = true, -- Xyraxz the Unknowable
+	[179911] = true, -- Silent Soulstalker
+	[179913] = true, -- Deadsoul Hatcher
+	[179914] = true, -- Observer Yorik
+	[179931] = true, -- Relic Breaker Krelva
+	[179985] = true, -- Stygian Stonecrusher
+	[180014] = true, -- Escaped Wilderling
+	[180032] = true, -- Wild Worldcracker
+	[180042] = true, -- Fleshwing
+	[180132] = true, -- Consumption
+	[180160] = true, -- Reliwik the Defiant
+	[180162] = true, -- Ve'rayn
+}
+
+-- ----------------------------------------------------------------------------
 -- Maldraxxus
 -- ----------------------------------------------------------------------------
 Maps[MapID.Maldraxxus].NPCs = {
@@ -226,4 +255,13 @@ Maps[MapID.TheMaw].NPCs = {
 	[173086] = true, -- Valis the Cruel
 	[175012] = true, -- Ikras the Devourer
 	[175821] = true, -- Ratgusher
+	[177444] = true, -- Ylva, Mate of Guarm
+	[177979] = true, -- Gralebboih
+	[179460] = true, -- Fallen Charger
+	[179735] = true, -- Torglluun
+	[179779] = true, -- Deomen the Vortex
+	[179805] = true, -- Traitor Balthier
+	[179851] = true, -- Guard Orguluus
+	[179853] = true, -- Blinding Shadow
+	[180246] = true, -- Carriage Crusher
 }

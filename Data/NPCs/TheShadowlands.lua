@@ -514,6 +514,204 @@ NPCs[171327] = { -- Reekmonger
 }
 
 -- ----------------------------------------------------------------------------
+-- Korthia
+-- ----------------------------------------------------------------------------
+NPCs[177336] = { -- Zelnithop
+	classification = NPCClassification.Rare,
+	questID = 64442,
+	vignetteID = 4863,
+	pets = {
+		{
+			itemID = 186542, -- Korthian Specimen
+			npcID = 179251, -- Korthian Specimen
+		},
+	},
+}
+
+NPCs[177903] = { -- Dominated Protector
+	classification = NPCClassification.Rare,
+	questID = 63830,
+	vignetteID = 4732,
+}
+
+NPCs[178958] = { -- Mor'geth
+	classification = NPCClassification.Elite,
+	questID = -1,
+	vignetteID = -1,
+	-- worldQuestID = ,
+}
+
+NPCs[179108] = { -- Kroke the Tormented
+	classification = NPCClassification.RareElite,
+	questID = 64428,
+	vignetteID = 4774,
+}
+
+NPCs[179472] = { -- Konthrogz the Obliterator
+	classification = NPCClassification.RareElite,
+	questID = 64246,
+	vignetteID = 4800,
+	mounts = {
+		{
+			itemID = 187183, -- Rampaging Mauler
+			spellID = 356501, -- Rampaging Mauler
+		},
+	},
+}
+
+NPCs[179565] = { -- Relic Gorger
+	classification = NPCClassification.Rare,
+	-- questID = ,
+	-- vignetteID = ,
+}
+
+NPCs[179608] = { -- Screaming Shade
+	classification = NPCClassification.Rare,
+	questID = 64263,
+	vignetteID = 4810,
+}
+
+NPCs[179684] = { -- Malbog
+	classification = NPCClassification.Rare,
+	questID = 64233,
+	vignetteID = 4783,
+	mounts = {
+		{
+			itemID = 186645, -- Crimson Shardhide
+			spellID = 354357, -- Crimson Shardhide
+		},
+	},
+}
+
+NPCs[179760] = { -- Towering Exterminator
+	classification = NPCClassification.RareElite,
+	questID = 64245,
+	vignetteID = 4798,
+}
+
+NPCs[179802] = { -- Yarxhov the Pillager
+	classification = NPCClassification.RareElite,
+	questID = 64257,
+	vignetteID = 4860,
+}
+
+NPCs[179823] = { -- Relic Gatherer
+	classification = NPCClassification.Rare,
+	-- questID = ,
+	-- vignetteID = ,
+}
+
+NPCs[179859] = { -- Xyraxz the Unknowable
+	classification = NPCClassification.RareElite,
+	questID = 64278,
+	vignetteID = 4862,
+}
+
+NPCs[179911] = { -- Silent Soulstalker
+	classification = NPCClassification.Rare,
+	questID = 64284,
+	vignetteID = 4820,
+}
+
+NPCs[179913] = { -- Deadsoul Hatcher
+	classification = NPCClassification.Rare,
+	questID = 64285,
+	vignetteID = 4822,
+}
+
+NPCs[179914] = { -- Observer Yorik
+	classification = NPCClassification.RareElite,
+	questID = 64440,
+	vignetteID = 4858,
+	toys = {
+		{ 
+			itemID = 187420, -- Maw-Ocular Viewfinder
+		},
+	},
+}
+
+NPCs[179931] = { -- Relic Breaker Krelva
+	classification = NPCClassification.Rare,
+	questID = 64291,
+	vignetteID = 4824,
+}
+
+NPCs[179985] = { -- Stygian Stonecrusher
+	classification = NPCClassification.Rare,
+	questID = 64313,
+	vignetteID = 4832,
+}
+
+NPCs[180014] = { -- Escaped Wilderling
+	classification = NPCClassification.Rare,
+	questID = 64320,
+	vignetteID = 4835,
+	mounts = {
+		{
+			itemID = 186492, -- Summer Wilderling Harness
+			spellID = 353859, -- Summer Wilderling
+			covenantID = 3, -- Night Fae
+		},
+	},
+}
+
+NPCs[180032] = { -- Wild Worldcracker
+	classification = NPCClassification.Rare,
+	questID = 64338,
+	vignetteID = 4839,
+	mounts = {
+		{
+			itemID = 186483, -- Foresworn Aquilon
+			spellID = 353877, -- Foresworn Aquilon
+			covenantID = 1 -- Kyrian
+		},
+	},
+	toys = {
+		{ 
+			itemID = 187176, -- Vesper of Harmony
+		},
+	},
+}
+
+NPCs[180042] = { -- Fleshwing
+	classification = NPCClassification.Rare,
+	questID = 64349,
+	vignetteID = 4841,
+	mounts = {
+		{
+			itemID = 186489, -- Lord of the Corpseflies
+			spellID = 347250, -- Lord of the Corpseflies
+			covenantID = 4, -- Necrolord
+		},
+	},
+}
+
+NPCs[180132] = { -- Consumption
+	classification = NPCClassification.Rare,
+	questID = 64243,
+	vignetteID = 4793,
+}
+
+NPCs[180160] = { -- Reliwik the Defiant
+	classification = NPCClassification.Rare,
+	-- questID = ,
+	-- vignetteID = ,
+	mounts = {
+		{
+			itemID = 186652, -- Garnet Razorwing
+			spellID = 354360, -- Garnet Razorwing
+		},
+	},
+}
+
+NPCs[180162] = { -- Ve'rayn
+	classification = NPCClassification.Rare,
+	-- factionGroup = "Alliance",
+	questID = 64457,
+	vignetteID = 4866,
+}
+
+-- ----------------------------------------------------------------------------
 -- Maldraxxus
 -- ----------------------------------------------------------------------------
 NPCs[157058] = { -- Corpsecutter Moroc
@@ -1232,6 +1430,11 @@ NPCs[158025] = { -- Darklord Taraxis
 	classification = NPCClassification.Rare,
 	questID = 62282,
 	vignetteID = 3836,
+	toys = {
+		{ 
+			itemID = 183901, -- Bonestorm Top
+		},
+	},
 }
 
 NPCs[158278] = { -- Nascent Devourer
@@ -1472,4 +1675,70 @@ NPCs[175821] = { -- Ratgusher
 	classification = NPCClassification.Normal,
 	questID = 63044,
 	vignetteID = 4603,
+}
+
+NPCs[177444] = { -- Ylva, Mate of Guarm
+	classification = NPCClassification.RareElite,
+	questID = 64152,
+	vignetteID = 4777,
+	isTameable = true,
+}
+
+NPCs[177979] = { -- Gralebboih
+	classification = NPCClassification.Elite,
+	-- questID = ,
+	-- vignetteID = ,
+	pets = {
+		{
+			itemID = 186449, -- Amaranthine Stinger
+			npcID = 179181, -- Amaranthine Stinger
+		},
+	},
+}
+
+NPCs[179460] = { -- Fallen Charger
+	classification = NPCClassification.RareElite,
+	questID = 64164,
+	vignetteID = 4778,
+}
+
+NPCs[179735] = { -- Torglluun
+	classification = NPCClassification.Rare,
+	questID = 64232,
+	vignetteID = 4782, -- Torglluun, Lord of Shades
+	toys = {
+		{ 
+			itemID = 187139, -- Bottled Shade Heart
+		},
+	},
+}
+
+NPCs[179779] = { -- Deomen the Vortex
+	classification = NPCClassification.RareElite,
+	questID = 64251,
+	vignetteID = 4803,
+}
+
+NPCs[179805] = { -- Traitor Balthier
+	classification = NPCClassification.RareElite,
+	questID = 64258,
+	vignetteID = 4808,
+}
+
+NPCs[179851] = { -- Guard Orguluus
+	classification = NPCClassification.Rare,
+	questID = 64272,
+	vignetteID = 4814,
+}
+
+NPCs[179853] = { -- Blinding Shadow
+	classification = NPCClassification.Rare,
+	questID = 64276,
+	vignetteID = 4815,
+}
+
+NPCs[180246] = { -- Carriage Crusher
+	classification = NPCClassification.Rare,
+	questID = 64439,
+	vignetteID = 4882,
 }

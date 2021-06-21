@@ -35,6 +35,7 @@ local AchievementID = {
 	BrokeBackPrecipice = 9571,
 	ChampionsOfLeiShen = 8103,
 	CommanderOfArgus = 12078,
+	ConqueringKorthia = 15107,
 	CutOffTheHead = 9633,
 	FightThePower = 9655,
 	Frostbitten = 2257,
