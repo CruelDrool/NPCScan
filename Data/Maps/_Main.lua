@@ -78,6 +78,7 @@ local MapID = {
 	Kalimdor = 12,
 	Karazhan = 350,
 	KelptharForest = 201,
+	Korthia = 1961,
 	KrasarangWilds = 418,
 	Krokuun = 830,
 	KulTiras = 876,

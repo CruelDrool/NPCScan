@@ -514,6 +514,147 @@ NPCs[171327] = { -- Reekmonger
 }
 
 -- ----------------------------------------------------------------------------
+-- Korthia
+-- ----------------------------------------------------------------------------
+NPCs[177336] = { -- Zelnithop
+	classification = NPCClassification.Rare,
+	questID = 64442,
+	vignetteID = 4863,
+}
+
+NPCs[177903] = { -- Dominated Protector
+	classification = NPCClassification.Rare,
+	questID = 63830,
+	vignetteID = 4732,
+}
+
+NPCs[179108] = { -- Kroke the Tormented
+	classification = NPCClassification.RareElite,
+	questID = 64428,
+	vignetteID = 4774,
+}
+
+NPCs[179472] = { -- Konthrogz the Obliterator
+	classification = NPCClassification.RareElite,
+	questID = 64246,
+	vignetteID = 4800,
+}
+
+NPCs[179565] = { -- Relic Gorger
+	classification = NPCClassification.Rare,
+	-- questID = ,
+	-- vignetteID = ,
+}
+
+NPCs[179608] = { -- Screaming Shade
+	classification = NPCClassification.Rare,
+	questID = 64263,
+	vignetteID = 4810,
+}
+
+NPCs[179684] = { -- Malbog
+	classification = NPCClassification.Rare,
+	questID = 64233,
+	vignetteID = 4783,
+}
+
+NPCs[179755] = { -- Consumption
+	classification = NPCClassification.Rare,
+	questID = 64243,
+	vignetteID = 4793,
+}
+
+NPCs[179760] = { -- Towering Exterminator
+	classification = NPCClassification.RareElite,
+	questID = 64245,
+	vignetteID = 4798,
+}
+
+NPCs[179768] = { -- Consumption
+	classification = NPCClassification.RareElite,
+	questID = 64243,
+	vignetteID = 4793,
+}
+
+NPCs[179802] = { -- Yarxhov the Pillager
+	classification = NPCClassification.RareElite,
+	questID = 64257,
+	vignetteID = 4860,
+}
+
+NPCs[179823] = { -- Relic Gatherer
+	classification = NPCClassification.Rare,
+	-- questID = ,
+	-- vignetteID = ,
+}
+
+NPCs[179859] = { -- Xyraxz the Unknowable
+	classification = NPCClassification.RareElite,
+	questID = 64278,
+	vignetteID = 4862,
+}
+
+NPCs[179911] = { -- Silent Soulstalker
+	classification = NPCClassification.Rare,
+	questID = 64284,
+	vignetteID = 4820,
+}
+
+NPCs[179913] = { -- Deadsoul Hatcher
+	classification = NPCClassification.Rare,
+	questID = 64285,
+	vignetteID = 4822,
+}
+
+NPCs[179914] = { -- Observer Yorik
+	classification = NPCClassification.RareElite,
+	questID = 64440,
+	vignetteID = 4858,
+}
+
+NPCs[179931] = { -- Relic Breaker Krelva
+	classification = NPCClassification.Rare,
+	questID = 64291,
+	vignetteID = 4824,
+}
+
+NPCs[179985] = { -- Stygian Stonecrusher
+	classification = NPCClassification.Rare,
+	questID = 64313,
+	vignetteID = 4832,
+}
+
+NPCs[180013] = { -- Escaped Wilderling
+	classification = NPCClassification.Rare,
+	questID = 64320,
+	vignetteID = 4835,
+}
+
+NPCs[180032] = { -- Wild Worldcracker
+	classification = NPCClassification.Rare,
+	questID = 64338,
+	vignetteID = 4839,
+}
+
+NPCs[180042] = { -- Fleshwing
+	classification = NPCClassification.Rare,
+	questID = 64349,
+	vignetteID = 4841,
+}
+
+NPCs[180160] = { -- Reliwik the Defiant
+	classification = NPCClassification.Rare,
+	-- questID = ,
+	-- vignetteID = ,
+}
+
+NPCs[180162] = { -- Ve'rayn
+	classification = NPCClassification.Rare,
+	questID = 64457,
+	vignetteID = 4866,
+}
+
+-- ----------------------------------------------------------------------------
 -- Maldraxxus
 -- ----------------------------------------------------------------------------
 NPCs[157058] = { -- Corpsecutter Moroc

@@ -83,6 +83,35 @@ Maps[MapID.Bastion].NPCs = {
 }
 
 -- ----------------------------------------------------------------------------
+-- Korthia
+-- ----------------------------------------------------------------------------
+Maps[MapID.Korthia].NPCs = {
+	[177336] = true, -- Zelnithop
+	[177903] = true, -- Dominated Protector
+	[179108] = true, -- Kroke the Tormented
+	[179472] = true, -- Konthrogz the Obliterator
+	[179565] = true, -- Relic Gorger
+	[179608] = true, -- Screaming Shade
+	[179684] = true, -- Malbog
+	[179755] = true, -- Consumption
+	[179760] = true, -- Towering Exterminator
+	[179768] = true, -- Consumption
+	[179802] = true, -- Yarxhov the Pillager
+	[179823] = true, -- Relic Gatherer
+	[179859] = true, -- Xyraxz the Unknowable
+	[179911] = true, -- Silent Soulstalker
+	[179913] = true, -- Deadsoul Hatcher
+	[179914] = true, -- Observer Yorik
+	[179931] = true, -- Relic Breaker Krelva
+	[179985] = true, -- Stygian Stonecrusher
+	[180013] = true, -- Escaped Wilderling
+	[180032] = true, -- Wild Worldcracker
+	[180042] = true, -- Fleshwing
+	[180160] = true, -- Reliwik the Defiant
+	[180162] = true, -- Ve'rayn
+}
+
+-- ----------------------------------------------------------------------------
 -- Maldraxxus
 -- ----------------------------------------------------------------------------
 Maps[MapID.Maldraxxus].NPCs = {
