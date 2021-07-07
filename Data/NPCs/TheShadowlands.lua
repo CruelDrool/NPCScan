@@ -534,13 +534,6 @@ NPCs[177903] = { -- Dominated Protector
 	vignetteID = 4732,
 }
 
-NPCs[178958] = { -- Mor'geth
-	classification = NPCClassification.Elite,
-	questID = -1,
-	vignetteID = -1,
-	-- worldQuestID = ,
-}
-
 NPCs[179108] = { -- Kroke the Tormented
 	classification = NPCClassification.RareElite,
 	questID = 64428,
@@ -597,7 +590,7 @@ NPCs[179802] = { -- Yarxhov the Pillager
 
 NPCs[179823] = { -- Relic Gatherer
 	classification = NPCClassification.Rare,
-	-- questID = ,
+	questID = 64433,
 	-- vignetteID = ,
 }
 
@@ -694,8 +687,8 @@ NPCs[180132] = { -- Consumption
 
 NPCs[180160] = { -- Reliwik the Defiant
 	classification = NPCClassification.Rare,
-	-- questID = ,
-	-- vignetteID = ,
+	questID = 64455,
+	vignetteID = 4864, -- Maw-touched Razorwing
 	mounts = {
 		{
 			itemID = 186652, -- Garnet Razorwing
@@ -1694,6 +1687,13 @@ NPCs[177979] = { -- Gralebboih
 			npcID = 179181, -- Amaranthine Stinger
 		},
 	},
+}
+
+NPCs[178958] = { -- Mor'geth
+	classification = NPCClassification.Elite,
+	questID = -1,
+	vignetteID = -1,
+	worldQuestID = 64531,
 }
 
 NPCs[179460] = { -- Fallen Charger
